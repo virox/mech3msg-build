@@ -1,4352 +1,3750 @@
-[
-  [
-    "MSG_BACK",
-    1,
-    "Zurück"
-  ],
-  [
-    "MSG_NEW_GAME",
-    2,
-    "Neues Spiel"
-  ],
-  [
-    "MSG_GAME_NAME_VER",
-    3,
-    "RECOIL %1"
-  ],
-  [
-    "MSG_DEMO_NAME_VER",
-    4,
-    "RECOILDemo %1"
-  ],
-  [
-    "MSG_DEVICE",
-    5,
-    "Gerät: %1"
-  ],
-  [
-    "MSG_DRIVER",
-    6,
-    "Treiber: %1"
-  ],
-  [
-    "MSG_INITIALIZING_NETWORK",
-    7,
-    "Initialisiere Netzwerk"
-  ],
-  [
-    "MSG_NUM_PLAYERS",
-    8,
-    "%1!d! Spieler"
-  ],
-  [
-    "MSG_PLAYING_CD",
-    9,
-    "Spiele CD"
-  ],
-  [
-    "MSG_DUMMY_FRAME",
-    10,
-    "Starte Dummy-Rahmen"
-  ],
-  [
-    "MSG_LETS_PLAY",
-    11,
-    "L a ß  u n s  s p i e l e n!"
-  ],
-  [
-    "MSG_COMMAND",
-    12,
-    "Befehl"
-  ],
-  [
-    "MSG_KEYA",
-    13,
-    "Taste A"
-  ],
-  [
-    "MSG_KEYB",
-    14,
-    "Taste B"
-  ],
-  [
-    "MSG_JOYBTN",
-    15,
-    "JoyKnpf"
-  ],
-  [
-    "MSG_MOUSEBTN",
-    16,
-    "Maustaste"
-  ],
-  [
-    "MSG_PLAYER_NAME",
-    17,
-    "Ihr Name"
-  ],
-  [
-    "MSG_NETWORK_ERROR",
-    18,
-    "RECOIL-Netzwerkfehler"
-  ],
-  [
-    "MSG_ZSTEALTH",
-    19,
-    "Unbenutzt"
-  ],
-  [
-    "MSG_NEED_DX5",
-    20,
-    "RECOIL benötigt DirectX Version 6 oder höher"
-  ],
-  [
-    "MSG_GET_DX5_FROM_WEB",
-    21,
-    "Laden Sie unter der Adresse http://www.microsoft.com/direct/download.asp die neueste Version von DirectX aus dem Internet."
-  ],
-  [
-    "MSG_GET_DX5_FROM_CD",
-    22,
-    "Installieren Sie das Spiel neu von der CD, um DirectX auf Ihren Rechner zu kopieren. "
-  ],
-  [
-    "MSG_MUST_ENTER_NAME",
-    23,
-    "Sie müssen einen Namen für Ihre Spielfigur eingeben. "
-  ],
-  [
-    "MSG_RECOIL_ERROR",
-    24,
-    "RECOIL-Fehler"
-  ],
-  [
-    "MSG_MANUAL",
-    25,
-    "RECOIL-Handbuch"
-  ],
-  [
-    "MSG_NETWORK_INDEX_FAILURE",
-    26,
-    "Probleme beim Lesen der Spielleiter-ID %n%n - Spielabbruch -"
-  ],
-  [
-    "MSG_NETWORK_INDEX_TIMEOUT",
-    27,
-    "Zeitfehler beim Lesen der Spielleiter-ID %n%n - Spielabbruch -"
-  ],
-  [
-    "MSG_NETWORK_TIMEOUT",
-    28,
-    "Netz-Zeitfehler"
-  ],
-  [
-    "MSG_NETWORK_NO_WINNER_RESPONSE",
-    29,
-    "Keine Siegerantwort %n%n---- Spielabbruch ----"
-  ],
-  [
-    "MSG_DATABASE_CORRUPT",
-    30,
-    "Datenbank defekt. Empfehle Neu-Installation. "
-  ],
-  [
-    "MSG_VIDEO_FAILURE",
-    31,
-    "Konnte Grafikkarte nicht initialisieren."
-  ],
-  [
-    "MSG_OUT_OF_MEM",
-    32,
-    "Das System hat keinen Speicher oder keine Rechenressourcen mehr. "
-  ],
-  [
-    "MSG_MANUAL_NEED_BROWSER",
-    33,
-    "Sie brauchen einen korrekt installierten Internet-Browser, um das Handbuch zu lesen. "
-  ],
-  [
-    "MSG_MANUAL_NOT_FOUND",
-    34,
-    "Handbuch nicht gefunden"
-  ],
-  [
-    "MSG_MANUAL_NO_DIR",
-    35,
-    "Handbuchverzeichnis nicht gefunden"
-  ],
-  [
-    "MSG_BAD_EXE",
-    36,
-    "Der angegebene Browser ist ungültig (kein WIN32-%.EXE oder Fehler in %.EXE-Datei)."
-  ],
-  [
-    "MSG_NETWORK_WAITING_FOR_HOST",
-    37,
-    "Warte darauf, daß Spielleiter das Spiel startet "
-  ],
-  [
-    "MSG_NETWORK_WINSOCK_WARNING",
-    38,
-    "TCP/IP funktioniert am besten mit Winsock 2.0 oder höher. Sie arbeiten mit Winsock %%d.%%d. Möglicherweise haben Sie Verzögerungsprobleme. Weitere Informationen finden Sie in der ReadMe-Datei. Möchten Sie fortfahren?"
-  ],
-  [
-    "MSG_NET_SESSION_LOST",
-    48,
-    "Keine Verbindung zu Netzwerkrunde!"
-  ],
-  [
-    "MSG_NET_WAIT_FOR_PLAYERS",
-    49,
-    "Warte auf Mitspieler "
-  ],
-  [
-    "MSG_NET_HIT_SPACEBAR",
-    50,
-    "Leertaste drücken, um Countdown einzuleiten "
-  ],
-  [
-    "MSG_NET_WAITING_FOR_PLAYERS",
-    51,
-    "Warte auf Mitspieler "
-  ],
-  [
-    "MSG_NET_HOST_WILL_START",
-    52,
-    "Spielleiter startet Renn-Countdown "
-  ],
-  [
-    "MSG_NET_DIAL",
-    53,
-    "Wählen"
-  ],
-  [
-    "MSG_NET_ANSWER",
-    54,
-    "Abheben"
-  ],
-  [
-    "MSG_NET_PLAY",
-    55,
-    "Spielen"
-  ],
-  [
-    "MSG_NET_NEW_GAME",
-    56,
-    "Neues Spiel..."
-  ],
-  [
-    "MSG_NETWORK_WAIT_FOR_NEXT_SESSION",
-    57,
-    "Bitte warten Sie auf den Beginn der nächsten Spielesitzung."
-  ],
-  [
-    "MSG_NETWORK_CLOSE_TO_ENDING",
-    64,
-    "Diese Spielesitzung wird bald beendet."
-  ],
-  [
-    "MSG_MEMORY_FAILURE",
-    128,
-    "Speicher-Zuordnungsfehler"
-  ],
-  [
-    "MSG_MEMORY_DETAILS",
-    129,
-    "Das Programm kann die benötigte Speichermenge nicht zuweisen. Es hilft meistens, wenn Sie auf Ihrer Festplatte etwas Platz schaffen. Das Programm bricht nun ab. "
-  ],
-  [
-    "MSG_CANT_SAVE",
-    130,
-    "Kann Spiel nicht speichern, während der BFT transportiert wird. "
-  ],
-  [
-    "MSG_NEED_CD",
-    131,
-    "Bitte legen Sie die RECOIL-CD ein und klicken Sie auf OK. "
-  ],
-  [
-    "MSG_NEED_DLL",
-    132,
-    "Die benötigte .DLL-Datei %1!s! wurde nicht gefunden."
-  ],
-  [
-    "MSG_CANT_SAVE_MP",
-    133,
-    "Spiel speichern im Mehrspielermodus nicht möglich. "
-  ],
-  [
-    "MSG_CANT_LOAD_MP",
-    134,
-    "Spiel laden im Mehrspielermodus nicht möglich. "
-  ],
-  [
-    "MSG_CANT_LOAD",
-    135,
-    "Spiel laden nicht möglich, solange der BFT transportiert wird. "
-  ],
-  [
-    "MSG_SAVE_OVERWRITE_HDR",
-    136,
-    "RECOIL: Spiel speichern"
-  ],
-  [
-    "MSG_SAVE_OVERWRITE_MSG",
-    137,
-    "Gespeicherten Spielstand überschreiben?"
-  ],
-  [
-    "MSG_DELETE_HDR",
-    138,
-    "RECOIL: Datei löschen "
-  ],
-  [
-    "MSG_DELETE_MSG",
-    139,
-    "Dieses Spiel löschen?"
-  ],
-  [
-    "MSG_SAVE_FAILED_MSG",
-    140,
-    "Speichern fehlgeschlagen - erneut versuchen?"
-  ],
-  [
-    "MSG_LOCKEDON",
-    256,
-    "Raketen im Anflug!"
-  ],
-  [
-    "MSG_SCORE",
-    257,
-    "Punktzahl %1!d!"
-  ],
-  [
-    "MSG_PROC_DATABASE",
-    258,
-    "Verarbeite Datenbank-Dateien "
-  ],
-  [
-    "MSG_TEXTURES",
-    259,
-    "Lade Texturen"
-  ],
-  [
-    "MSG_UPDATE_DATABASE",
-    260,
-    "Bringe Datenbank auf den neuesten Stand"
-  ],
-  [
-    "MSG_DECLIENT",
-    261,
-    "Erschaffe DEClient"
-  ],
-  [
-    "MSG_EFFECTS",
-    262,
-    "Erschaffe Effekte"
-  ],
-  [
-    "MSG_DEMOLITIONS",
-    263,
-    "Erschaffe Zerstörungen"
-  ],
-  [
-    "MSG_ANIMATIONS",
-    264,
-    "Erschaffe Animationen"
-  ],
-  [
-    "MSG_WEAPONS",
-    265,
-    "Erschaffe Waffen"
-  ],
-  [
-    "MSG_ENEMIES",
-    266,
-    "Erschaffe Gegner"
-  ],
-  [
-    "MSG_HUD",
-    267,
-    "Erschaffe HUD"
-  ],
-  [
-    "MSG_CREATING_PLAYER",
-    268,
-    "Erschaffe Spieler "
-  ],
-  [
-    "MSG_OBJECTIVES",
-    269,
-    "Lade Einsatzziele"
-  ],
-  [
-    "MSG_SOUNDS",
-    270,
-    "Lade Soundeffekte"
-  ],
-  [
-    "MSG_LOAD_NEXT_MISSION",
-    271,
-    "Lade nächsten Einsatz. Bitte warten ..."
-  ],
-  [
-    "MSG_SIGNAL_LOST",
-    272,
-    "... Signal verloren ..."
-  ],
-  [
-    "MSG_SELECT_CONNECTION_TYPE",
-    273,
-    "< Wählen Sie eine Verbindungsart. >"
-  ],
-  [
-    "MSG_SESSION_COUNTS",
-    274,
-    "%1(Max. Spielerzahl: %2!d! Momentan: %3!d! )"
-  ],
-  [
-    "MSG_LAPS",
-    275,
-    "Runden"
-  ],
-  [
-    "MSG_KILLS",
-    276,
-    "Abschüsse"
-  ],
-  [
-    "MSG_PLAYER",
-    277,
-    "Spieler "
-  ],
-  [
-    "MSG_REVIEW_LINE1",
-    278,
-    "Ziele erreicht: %1!d! von %2!d! Treffergenauigkeit: %3!d!%%%%"
-  ],
-  [
-    "MSG_REVIEW_LINE2",
-    279,
-    "Gegner ausgeschaltet: %1!d! von %2!02d! Waffen gefunden: %3!d! von %4!d!"
-  ],
-  [
-    "MSG_REVIEW_LINE3",
-    280,
-    "Einsatzzeit %1!d!:%2!d!"
-  ],
-  [
-    "MSG_WEAPON_STATS_LINE1",
-    281,
-    "Feuergrad: %1!d! rds/min   Maximaler Bereich: %2!d! m"
-  ],
-  [
-    "MSG_WEAPON_STATS_LINE2A",
-    282,
-    "Zerstörkraft: %1      Zerstörannäherung: %2!d! m"
-  ],
-  [
-    "MSG_WEAPON_STATS_LINE2B",
-    283,
-    "Zerstörkraft: %1"
-  ],
-  [
-    "MSG_WEAPON_STATS_FEATURE",
-    284,
-    "Feature:"
-  ],
-  [
-    "MSG_WEAPON_STATS_FEATURE_REMOTE",
-    285,
-    " Ferngezündet"
-  ],
-  [
-    "MSG_WEAPON_STATS_FEATURE_THERMAL",
-    286,
-    " Wärmegesteuert"
-  ],
-  [
-    "MSG_WEAPON_STATS_FEATURE_MULTI",
-    287,
-    " Multi"
-  ],
-  [
-    "MSG_WEAPON_STATS_FEATURE_TETHER",
-    288,
-    " Kabelgelenkt"
-  ],
-  [
-    "MSG_WEAPON_STATS_FEATURE_LOCKON",
-    289,
-    " Zielsuchend"
-  ],
-  [
-    "MSG_WEAPON_STATS_FEATURE_BEAM",
-    290,
-    " Strahl"
-  ],
-  [
-    "MSG_WEAPON_STATS_FEATURE_MINE",
-    291,
-    " Mine"
-  ],
-  [
-    "MSG_RPFG_A",
-    512,
-    "Munition: SIK"
-  ],
-  [
-    "MSG_ERFPG_A",
-    515,
-    "VSIK-Energie"
-  ],
-  [
-    "MSG_ERFPG_W",
-    516,
-    "Waffe: VSIK"
-  ],
-  [
-    "MSG_HE_MORTAR_A",
-    517,
-    "Munition: Mörser"
-  ],
-  [
-    "MSG_HE_MORTAR_W",
-    518,
-    "Waffe: Mörser"
-  ],
-  [
-    "MSG_DIS_MORTAR_A",
-    519,
-    "Munition: Molekülzersetzende Mörsergranaten "
-  ],
-  [
-    "MSG_DIS_MORTAR_W",
-    520,
-    "Waffe: Molekülzersetzender Mörser "
-  ],
-  [
-    "MSG_LO_MISSILE_A",
-    521,
-    "Munition: Zielsuchende Raketen "
-  ],
-  [
-    "MSG_LO_MISSILE_W",
-    522,
-    "Waffe: Abschußvorrichtung für zielsuchende Raketen"
-  ],
-  [
-    "MSG_NAPALM_A",
-    523,
-    "Munition: Napalm"
-  ],
-  [
-    "MSG_NAPALM_W",
-    524,
-    "Waffe: Napalm-Werfer"
-  ],
-  [
-    "MSG_NANO",
-    525,
-    "Nano-Kanister"
-  ],
-  [
-    "MSG_FREON_A",
-    526,
-    "Munition: Freon"
-  ],
-  [
-    "MSG_FREON_W",
-    527,
-    "Waffe: Freon"
-  ],
-  [
-    "MSG_NANITE",
-    528,
-    "Nanit"
-  ],
-  [
-    "MSG_PHE_MINE_A",
-    545,
-    "Munition: Annäherungsmine "
-  ],
-  [
-    "MSG_PHE_MINE_W",
-    546,
-    "Waffe: Annäherungsminenleger "
-  ],
-  [
-    "MSG_PDIS_MINE_A",
-    547,
-    "Munition: Molekülzersetzende Annäherungsmine"
-  ],
-  [
-    "MSG_PDIS_MINE_W",
-    548,
-    "Waffe: Werfer für molekülzersetzende Annäherungsmine"
-  ],
-  [
-    "MSG_RHE_MINE_A",
-    549,
-    "Munition: Fernzündermine"
-  ],
-  [
-    "MSG_RHE_MINE_W",
-    550,
-    "Waffe: Werfer für FernzündeRmine"
-  ],
-  [
-    "MSG_RDIS_MINE_A",
-    551,
-    "Munition: Molkülzersetzende Fernzündermine"
-  ],
-  [
-    "MSG_RDIS_MINE_W",
-    552,
-    "Waffe: Werfer für molekülzersetzende Fernzündermine"
-  ],
-  [
-    "MSG_LO_LASER_A",
-    553,
-    "Munition: Energie für das Laser-Zielgerät"
-  ],
-  [
-    "MSG_LO_LASER_W",
-    554,
-    "Waffe: Laser-Zielgerät"
-  ],
-  [
-    "MSG_LASER_SABER_A",
-    555,
-    "Munition: Energie für Säbellaser"
-  ],
-  [
-    "MSG_LASER_SABER_W",
-    556,
-    "Waffe: Säbellaser"
-  ],
-  [
-    "MSG_SONIC_A",
-    557,
-    "Munition: Energie für Schallkanone "
-  ],
-  [
-    "MSG_SONIC_W",
-    558,
-    "Waffe: Schallkanone"
-  ],
-  [
-    "MSG_ARC_A",
-    559,
-    "Munition: Energie für Säbelbogen"
-  ],
-  [
-    "MSG_ARC_W",
-    560,
-    "Waffe: Säbelbogen"
-  ],
-  [
-    "MSG_GM_A",
-    561,
-    "Munition: Lenkrakete"
-  ],
-  [
-    "MSG_GM_W",
-    562,
-    "Waffe: Startrampe für Lenkraketen"
-  ],
-  [
-    "MSG_GN_A",
-    563,
-    "Munition: Zielsuchende Nuklearraketen"
-  ],
-  [
-    "MSG_GN_W",
-    564,
-    "Waffe: Zielsuchende Nuklearraketen"
-  ],
-  [
-    "MSG_NUKE_A",
-    565,
-    "Munition: Atomrakete"
-  ],
-  [
-    "MSG_NUKE_W",
-    566,
-    "Waffe: Werfer für Atomraketen"
-  ],
-  [
-    "MSG_AMMO_LIMIT",
-    567,
-    "%1 auf Maximum "
-  ],
-  [
-    "MSG_TRANS_TRACKED",
-    568,
-    "Umwandlung zum Kettenfahrzeug "
-  ],
-  [
-    "MSG_TRANS_AMPHIB",
-    569,
-    "Umwandlung zum Amphibienfahrzeug "
-  ],
-  [
-    "MSG_TRANS_HOVER",
-    570,
-    "Umwandlung zum Hoverpanzer"
-  ],
-  [
-    "MSG_TRANS_SUB",
-    571,
-    "Umwandlung zum Tauchpanzer"
-  ],
-  [
-    "MSG_LOST_AMPHIB",
-    572,
-    "Amphibische Technik ausgeschaltet"
-  ],
-  [
-    "MSG_EARN_AMPHIB",
-    573,
-    "Amphibische Technik eingeschaltet"
-  ],
-  [
-    "MSG_DEAD",
-    574,
-    "Battle Force Tank vernichtet"
-  ],
-  [
-    "MSG_AMMO_PICKUP",
-    575,
-    "1 Schuß %1"
-  ],
-  [
-    "MSG_AMMO_PICKUPS",
-    576,
-    "%1!d! Schuß %2"
-  ],
-  [
-    "MSG_AMPHIB_PICKUP",
-    577,
-    "Amphibische Technik eingeschaltet "
-  ],
-  [
-    "MSG_HOVER_PICKUP",
-    578,
-    "Schwebe-Technik eingeschaltet"
-  ],
-  [
-    "MSG_ALL_WEAPONS_PICKUP",
-    579,
-    "Alle Waffen eingeschaltet"
-  ],
-  [
-    "MSG_MISSION",
-    580,
-    "Einsatz %1!d!"
-  ],
-  [
-    "MSG_SUB_PICKUP",
-    581,
-    "Tauchtechnik eingeschaltet "
-  ],
-  [
-    "MSG_NANO_USED",
-    582,
-    "Nano-Kanister benutzt"
-  ],
-  [
-    "MSG_INVINCIBLE",
-    583,
-    "Battle Force Tank unbesiegbar"
-  ],
-  [
-    "MSG_DETONATE_HE_MINE",
-    584,
-    "Fernzünderminen gezündet: %1!d!"
-  ],
-  [
-    "MSG_DETONATE_DIS_MINE",
-    585,
-    "Molekülzersetzende Fernzünderminen gezündet: %1!d!"
-  ],
-  [
-    "MSG_NANITE100",
-    586,
-    "Nanit 100"
-  ],
-  [
-    "MSG_WEAPON_INACTIVE",
-    587,
-    "%1!s! im Tauchmodus nicht einsetzbar"
-  ],
-  [
-    "MSG_SUSTAINED_THROTTLE",
-    588,
-    "Dauergas eingeschaltet"
-  ],
-  [
-    "MSG_VARIABLE_THROTTLE",
-    589,
-    "Variables Gas eingeschaltet"
-  ],
-  [
-    "MSG_KILLED",
-    592,
-    "tötete"
-  ],
-  [
-    "MSG_KILL_VERB_DEFEATED",
-    593,
-    "besiegte"
-  ],
-  [
-    "MSG_KILL_VERB_BLASTED",
-    594,
-    "erschoß"
-  ],
-  [
-    "MSG_KILL_VERB_DESTROYED",
-    595,
-    "vernichtete"
-  ],
-  [
-    "MSG_KILL_VERB_LIQUIFIED",
-    596,
-    "verflüssigte"
-  ],
-  [
-    "MSG_KILL_VERB_SHATTERED",
-    597,
-    "zerschmetterte"
-  ],
-  [
-    "MSG_KILL_VERB_TORCHED",
-    598,
-    "verbrannte"
-  ],
-  [
-    "MSG_KILL_VERB_BLEW_APART",
-    599,
-    "sprengte"
-  ],
-  [
-    "MSG_KILL_VERB_ASSASSINATED",
-    600,
-    "ermordete"
-  ],
-  [
-    "MSG_KILL_VERB_CRUSHED",
-    601,
-    "zerquetschte"
-  ],
-  [
-    "MSG_KILL_VERB_ELECTROCUTED",
-    602,
-    "exekutierte"
-  ],
-  [
-    "MSG_KILL_VERB_WIPED_OUT",
-    603,
-    "eliminierte"
-  ],
-  [
-    "MSG_KILL_VERB_ANNIHILATED",
-    604,
-    "vernichtete"
-  ],
-  [
-    "MSG_DESC_RFPG",
-    624,
-    "Schnellfeuer-Impulskanone "
-  ],
-  [
-    "MSG_DESC_ERFPG",
-    625,
-    "Verbesserte Schnellfeuer-Impulskanone "
-  ],
-  [
-    "MSG_DESC_HEM",
-    626,
-    "Spreng-Mörser "
-  ],
-  [
-    "MSG_DESC_MDM",
-    627,
-    "Molekülzersetzender Mörser "
-  ],
-  [
-    "MSG_DESC_FREON",
-    628,
-    "Freon-Sprengkanone"
-  ],
-  [
-    "MSG_DESC_NAPALM",
-    629,
-    "Napalm-Werfer"
-  ],
-  [
-    "MSG_DESC_P_HEM",
-    630,
-    "Annäherungs-Sprengmine"
-  ],
-  [
-    "MSG_DESC_P_MDM",
-    631,
-    "Molekülzersetzende Annäherungsmine"
-  ],
-  [
-    "MSG_DESC_R_HEM",
-    632,
-    "Ferngezündete Sprengmine"
-  ],
-  [
-    "MSG_DESC_R_MDM",
-    633,
-    "Ferngezündete molekülzersetzende Mine"
-  ],
-  [
-    "MSG_DESC_LASERD",
-    634,
-    "Laser-Zielerfassung"
-  ],
-  [
-    "MSG_DESC_LASER",
-    635,
-    "Säbellaser"
-  ],
-  [
-    "MSG_DESC_SONIC",
-    636,
-    "Sonarkanone"
-  ],
-  [
-    "MSG_DESC_ARC_SABRE",
-    637,
-    "Säbelbogen"
-  ],
-  [
-    "MSG_DESC_LO_EM",
-    638,
-    "Zielsuchende Rakete"
-  ],
-  [
-    "MSG_DESC_TG_EM",
-    639,
-    "Kabelgelenkte Rakete"
-  ],
-  [
-    "MSG_DESC_LO_PM",
-    640,
-    "Zielsuchende Atomrakete"
-  ],
-  [
-    "MSG_DESC_TG_PN",
-    641,
-    "Kabelgelenkte Atomrakete"
-  ],
-  [
-    "MSG_DESC_SLOM",
-    642,
-    "Kleine zielsuchende Rakete "
-  ],
-  [
-    "MSG_KEY_ESCAPE",
-    1024,
-    "ESCAPE"
-  ],
-  [
-    "MSG_KEY_1",
-    1025,
-    "1"
-  ],
-  [
-    "MSG_KEY_2",
-    1026,
-    "2"
-  ],
-  [
-    "MSG_KEY_3",
-    1027,
-    "3"
-  ],
-  [
-    "MSG_KEY_4",
-    1028,
-    "4"
-  ],
-  [
-    "MSG_KEY_5",
-    1029,
-    "5"
-  ],
-  [
-    "MSG_KEY_6",
-    1030,
-    "6"
-  ],
-  [
-    "MSG_KEY_7",
-    1031,
-    "7"
-  ],
-  [
-    "MSG_KEY_8",
-    1032,
-    "8"
-  ],
-  [
-    "MSG_KEY_9",
-    1033,
-    "9"
-  ],
-  [
-    "MSG_KEY_0",
-    1034,
-    "0"
-  ],
-  [
-    "MSG_KEY_MINUS",
-    1035,
-    "GEDANKENSTRICH"
-  ],
-  [
-    "MSG_KEY_EQUALS",
-    1036,
-    "GLEICH"
-  ],
-  [
-    "MSG_KEY_BACK",
-    1037,
-    "BACK"
-  ],
-  [
-    "MSG_KEY_TAB",
-    1038,
-    "TAB"
-  ],
-  [
-    "MSG_KEY_LBRACKET",
-    1039,
-    "KLAMMER AUF"
-  ],
-  [
-    "MSG_KEY_RBRACKET",
-    1040,
-    "KLAMMER ZU"
-  ],
-  [
-    "MSG_KEY_RETURN",
-    1041,
-    "RETURN"
-  ],
-  [
-    "MSG_KEY_LCONTROL",
-    1042,
-    "STRG LINKS"
-  ],
-  [
-    "MSG_KEY_SEMICOLON",
-    1043,
-    "SEMIKOLON"
-  ],
-  [
-    "MSG_KEY_APOSTROPHE",
-    1044,
-    "APOSTROPH"
-  ],
-  [
-    "MSG_KEY_GRAVE",
-    1045,
-    "ACCENT"
-  ],
-  [
-    "MSG_KEY_LSHIFT",
-    1046,
-    "SHIFT LINKS"
-  ],
-  [
-    "MSG_KEY_BACKSLASH",
-    1047,
-    "BACKSLASH"
-  ],
-  [
-    "MSG_KEY_COMMA",
-    1048,
-    "KOMMA"
-  ],
-  [
-    "MSG_KEY_PERIOD",
-    1049,
-    "PUNKT"
-  ],
-  [
-    "MSG_KEY_SLASH",
-    1050,
-    "SCHRÄGSTRICH"
-  ],
-  [
-    "MSG_KEY_RSHIFT",
-    1051,
-    "SHIFT RECHTS"
-  ],
-  [
-    "MSG_KEY_MULTIPLY",
-    1052,
-    "MAL"
-  ],
-  [
-    "MSG_KEY_LMENU",
-    1053,
-    "MENÜ LINKS"
-  ],
-  [
-    "MSG_KEY_SPACE",
-    1054,
-    "LEERTASTE"
-  ],
-  [
-    "MSG_KEY_CAPITAL",
-    1055,
-    "HOCH"
-  ],
-  [
-    "MSG_KEY_NUMLOCK",
-    1056,
-    "NUMLOCK"
-  ],
-  [
-    "MSG_KEY_SCROLL",
-    1057,
-    "ROLLEN"
-  ],
-  [
-    "MSG_KEY_NUMPAD1",
-    1058,
-    "ZIFFERNBLOCK 1"
-  ],
-  [
-    "MSG_KEY_NUMPAD2",
-    1059,
-    "ZIFFERNBLOCK 2"
-  ],
-  [
-    "MSG_KEY_NUMPAD3",
-    1060,
-    "ZIFFERNBLOCK 3"
-  ],
-  [
-    "MSG_KEY_NUMPAD4",
-    1061,
-    "ZIFFERNBLOCK 4"
-  ],
-  [
-    "MSG_KEY_NUMPAD5",
-    1062,
-    "ZIFFERNBLOCK 5"
-  ],
-  [
-    "MSG_KEY_NUMPAD6",
-    1063,
-    "ZIFFERNBLOCK 6"
-  ],
-  [
-    "MSG_KEY_NUMPAD7",
-    1064,
-    "ZIFFERNBLOCK 7"
-  ],
-  [
-    "MSG_KEY_NUMPAD8",
-    1065,
-    "ZIFFERNBLOCK 8"
-  ],
-  [
-    "MSG_KEY_NUMPAD9",
-    1066,
-    "ZIFFERNBLOCK 9"
-  ],
-  [
-    "MSG_KEY_NUMPAD0",
-    1067,
-    "ZIFFERNBLOCK 0"
-  ],
-  [
-    "MSG_KEY_SUBTRACT",
-    1068,
-    "MINUS"
-  ],
-  [
-    "MSG_KEY_ADD",
-    1069,
-    "PLUS"
-  ],
-  [
-    "MSG_KEY_DECIMAL",
-    1070,
-    "KOMMA"
-  ],
-  [
-    "MSG_KEY_F1",
-    1071,
-    "F1"
-  ],
-  [
-    "MSG_KEY_F2",
-    1072,
-    "F2"
-  ],
-  [
-    "MSG_KEY_F3",
-    1073,
-    "F3"
-  ],
-  [
-    "MSG_KEY_F4",
-    1074,
-    "F4"
-  ],
-  [
-    "MSG_KEY_F5",
-    1075,
-    "F5"
-  ],
-  [
-    "MSG_KEY_F6",
-    1076,
-    "F6"
-  ],
-  [
-    "MSG_KEY_F7",
-    1077,
-    "F7"
-  ],
-  [
-    "MSG_KEY_F8",
-    1078,
-    "F8"
-  ],
-  [
-    "MSG_KEY_F9",
-    1079,
-    "F9"
-  ],
-  [
-    "MSG_KEY_F10",
-    1080,
-    "F10"
-  ],
-  [
-    "MSG_KEY_F11",
-    1081,
-    "F11"
-  ],
-  [
-    "MSG_KEY_F12",
-    1082,
-    "F12"
-  ],
-  [
-    "MSG_KEY_F13",
-    1083,
-    "F13"
-  ],
-  [
-    "MSG_KEY_F14",
-    1084,
-    "F14"
-  ],
-  [
-    "MSG_KEY_F15",
-    1085,
-    "F15"
-  ],
-  [
-    "MSG_KEY_UP",
-    1086,
-    "HOCH"
-  ],
-  [
-    "MSG_KEY_DOWN",
-    1087,
-    "RUNTER"
-  ],
-  [
-    "MSG_KEY_LEFT",
-    1088,
-    "LINKS"
-  ],
-  [
-    "MSG_KEY_RIGHT",
-    1089,
-    "RECHTS"
-  ],
-  [
-    "MSG_KEY_INSERT",
-    1090,
-    "EINFG"
-  ],
-  [
-    "MSG_KEY_DELETE",
-    1091,
-    "ENTF"
-  ],
-  [
-    "MSG_KEY_HOME",
-    1092,
-    "POS!"
-  ],
-  [
-    "MSG_KEY_PRIOR",
-    1093,
-    "BILD HOCH"
-  ],
-  [
-    "MSG_KEY_NEXT",
-    1094,
-    "BILD RUNTER"
-  ],
-  [
-    "MSG_KEY_END",
-    1095,
-    "ENDE"
-  ],
-  [
-    "MSG_KEY_RCONTROL",
-    1096,
-    "STRG RECHTS"
-  ],
-  [
-    "MSG_KEY_DIVIDE",
-    1097,
-    "DURCH"
-  ],
-  [
-    "MSG_KEY_KANA",
-    1098,
-    "KANA"
-  ],
-  [
-    "MSG_KEY_CONVERT",
-    1099,
-    "CONVERT"
-  ],
-  [
-    "MSG_KEY_NOCONVERT",
-    1100,
-    "NOCONVERT"
-  ],
-  [
-    "MSG_KEY_YEN",
-    1101,
-    "YEN"
-  ],
-  [
-    "MSG_KEY_NUMPADEQUALS",
-    1102,
-    "ZIFFERNBLOCK GLEICH"
-  ],
-  [
-    "MSG_KEY_CIRCUMFLEX",
-    1103,
-    "CIRCUMFLEX"
-  ],
-  [
-    "MSG_KEY_AT",
-    1104,
-    "@"
-  ],
-  [
-    "MSG_KEY_COLON",
-    1105,
-    "DOPPELPUNKT"
-  ],
-  [
-    "MSG_KEY_UNDERLINE",
-    1106,
-    "UNTERSTRICH"
-  ],
-  [
-    "MSG_KEY_KANJI",
-    1107,
-    "KANJI"
-  ],
-  [
-    "MSG_KEY_STOP",
-    1108,
-    "PAUSE"
-  ],
-  [
-    "MSG_KEY_AX",
-    1109,
-    "AX"
-  ],
-  [
-    "MSG_KEY_UNLABELED",
-    1110,
-    "UNLABELED"
-  ],
-  [
-    "MSG_KEY_NUMPADENTER",
-    1111,
-    "ZIFFERNBLOCK RETURN"
-  ],
-  [
-    "MSG_KEY_NUMPADCOMMA",
-    1112,
-    "ZIFFERNBLOCK KOMMA"
-  ],
-  [
-    "MSG_KEY_SYSRQ",
-    1113,
-    "SYSRQ"
-  ],
-  [
-    "MSG_KEY_RMENU",
-    1114,
-    "MENÜ RECHTS"
-  ],
-  [
-    "MSG_KEY_LWIN",
-    1115,
-    "WINDOWS LINKS"
-  ],
-  [
-    "MSG_KEY_RWIN",
-    1116,
-    "WINDOWS RECHTS"
-  ],
-  [
-    "MSG_KEY_APPS",
-    1117,
-    "APPS"
-  ],
-  [
-    "MSG_KEY_A",
-    1280,
-    "A"
-  ],
-  [
-    "MSG_KEY_B",
-    1281,
-    "B"
-  ],
-  [
-    "MSG_KEY_C",
-    1282,
-    "C"
-  ],
-  [
-    "MSG_KEY_D",
-    1283,
-    "D"
-  ],
-  [
-    "MSG_KEY_E",
-    1284,
-    "E"
-  ],
-  [
-    "MSG_KEY_F",
-    1285,
-    "F"
-  ],
-  [
-    "MSG_KEY_G",
-    1286,
-    "G"
-  ],
-  [
-    "MSG_KEY_H",
-    1287,
-    "H"
-  ],
-  [
-    "MSG_KEY_I",
-    1288,
-    "I"
-  ],
-  [
-    "MSG_KEY_J",
-    1289,
-    "J"
-  ],
-  [
-    "MSG_KEY_K",
-    1290,
-    "K"
-  ],
-  [
-    "MSG_KEY_L",
-    1291,
-    "L"
-  ],
-  [
-    "MSG_KEY_M",
-    1292,
-    "M"
-  ],
-  [
-    "MSG_KEY_N",
-    1293,
-    "N"
-  ],
-  [
-    "MSG_KEY_O",
-    1294,
-    "O"
-  ],
-  [
-    "MSG_KEY_P",
-    1295,
-    "P"
-  ],
-  [
-    "MSG_KEY_Q",
-    1296,
-    "Q"
-  ],
-  [
-    "MSG_KEY_R",
-    1297,
-    "R"
-  ],
-  [
-    "MSG_KEY_S",
-    1298,
-    "S"
-  ],
-  [
-    "MSG_KEY_T",
-    1299,
-    "T"
-  ],
-  [
-    "MSG_KEY_U",
-    1300,
-    "U"
-  ],
-  [
-    "MSG_KEY_V",
-    1301,
-    "V"
-  ],
-  [
-    "MSG_KEY_W",
-    1302,
-    "W"
-  ],
-  [
-    "MSG_KEY_X",
-    1303,
-    "X"
-  ],
-  [
-    "MSG_KEY_Y",
-    1304,
-    "Y"
-  ],
-  [
-    "MSG_KEY_Z",
-    1305,
-    "Z"
-  ],
-  [
-    "MSG_JBTN_1",
-    1537,
-    "Knopf 1"
-  ],
-  [
-    "MSG_JBTN_2",
-    1538,
-    "Knopf 2"
-  ],
-  [
-    "MSG_JBTN_3",
-    1539,
-    "Knopf 3"
-  ],
-  [
-    "MSG_JBTN_4",
-    1540,
-    "Knopf 4"
-  ],
-  [
-    "MSG_JBTN_5",
-    1541,
-    "Knopf 5"
-  ],
-  [
-    "MSG_JBTN_6",
-    1542,
-    "Knopf 6"
-  ],
-  [
-    "MSG_JBTN_7",
-    1543,
-    "Knopf 7"
-  ],
-  [
-    "MSG_JBTN_8",
-    1544,
-    "Knopf 8"
-  ],
-  [
-    "MSG_MBTN_LEFT",
-    1793,
-    "Links"
-  ],
-  [
-    "MSG_MBTN_RIGHT",
-    1794,
-    "Rechts"
-  ],
-  [
-    "MSG_MBTN_MIDDLE",
-    1795,
-    "Mitte"
-  ],
-  [
-    "MSG_CMDSET_BFT_CONTROL",
-    1872,
-    "BFT - STEUERUNG"
-  ],
-  [
-    "MSG_CMDSET_WEAPONS",
-    1873,
-    "Waffenkontrolle und Zielerfassung "
-  ],
-  [
-    "MSG_CMDSET_DISPLAY_CONTROLS",
-    1874,
-    "Anzeige Steuerung"
-  ],
-  [
-    "MSG_CMDSET_CAMPAIGN_CONTROLS",
-    1875,
-    "Feldzugspezifische Steuerung"
-  ],
-  [
-    "MSG_CMDSET_OTHER_CONTROLS",
-    1876,
-    "Andere Steuerung"
-  ],
-  [
-    "MSG_CMDSET_DEVELOPMENT_AND_DEBUG",
-    1877,
-    "Entwicklung & Debug"
-  ],
-  [
-    "MSG_CMD_GO_BACKWARD",
-    2048,
-    "Rückwärts"
-  ],
-  [
-    "MSG_CMD_GO_BACKWARD_VERBOSE",
-    2049,
-    "Beschleunigung rückwärts"
-  ],
-  [
-    "MSG_CMD_TURN_LEFT",
-    2050,
-    "Links"
-  ],
-  [
-    "MSG_CMD_TURN_LEFT_VERBOSE",
-    2051,
-    "BFT nach links drehen"
-  ],
-  [
-    "MSG_CMD_TURN_RIGHT",
-    2052,
-    "Rechts"
-  ],
-  [
-    "MSG_CMD_TURN_RIGHT_VERBOSE",
-    2053,
-    "BFT nach rechts drehen"
-  ],
-  [
-    "MSG_CMD_GO_FORWARD",
-    2054,
-    "Vorwärts"
-  ],
-  [
-    "MSG_CMD_GO_FORWARD_VERBOSE",
-    2055,
-    "Nach vorne beschleunigen"
-  ],
-  [
-    "MSG_CMD_PITCH_UP",
-    2056,
-    "Hoch"
-  ],
-  [
-    "MSG_CMD_PITCH_UP_VERBOSE",
-    2057,
-    "Fahrzeug hochziehen "
-  ],
-  [
-    "MSG_CMD_PITCH_DOWN",
-    2058,
-    "Runter"
-  ],
-  [
-    "MSG_CMD_PITCH_DOWN_VERBOSE",
-    2059,
-    "Fahrzeug herunterziehen"
-  ],
-  [
-    "MSG_CMD_PITCH_CENTER",
-    2060,
-    "Auspendeln"
-  ],
-  [
-    "MSG_CMD_PITCH_CENTER_VERBOSE",
-    2061,
-    "Fahrzeug in waagerechte Lage bringen"
-  ],
-  [
-    "MSG_CMD_GO_UP",
-    2062,
-    "Auftauchen"
-  ],
-  [
-    "MSG_CMD_GO_UP_VERBOSE",
-    2063,
-    "Bringt Tauchpanzer an die Wasseroberfläche"
-  ],
-  [
-    "MSG_CMD_GO_DOWN",
-    2064,
-    "Tauchen"
-  ],
-  [
-    "MSG_CMD_GO_DOWN_VERBOSE",
-    2065,
-    "Mit Tauchpanzer abtauchen"
-  ],
-  [
-    "MSG_CMD_WEAPON1",
-    2066,
-    "Waffe 1"
-  ],
-  [
-    "MSG_CMD_WEAPON1_VERBOSE",
-    2067,
-    "SIK/VSIK auswählen/umschalten"
-  ],
-  [
-    "MSG_CMD_WEAPON2",
-    2068,
-    "Waffe 2"
-  ],
-  [
-    "MSG_CMD_WEAPON2_VERBOSE",
-    2069,
-    "Mörserwaffen auswählen/umschalten"
-  ],
-  [
-    "MSG_CMD_WEAPON3",
-    2070,
-    "Waffe 3"
-  ],
-  [
-    "MSG_CMD_WEAPON3_VERBOSE",
-    2071,
-    "Sprühwaffen auswählen/umschalten"
-  ],
-  [
-    "MSG_CMD_WEAPON4",
-    2072,
-    "Waffe 4"
-  ],
-  [
-    "MSG_CMD_WEAPON4_VERBOSE",
-    2073,
-    "Annäherungsminen auswählen/umschalten"
-  ],
-  [
-    "MSG_CMD_WEAPON5",
-    2074,
-    "Waffe 5"
-  ],
-  [
-    "MSG_CMD_WEAPON5_VERBOSE",
-    2075,
-    "Ferngezündete Minen auswählen/umschalten"
-  ],
-  [
-    "MSG_CMD_WEAPON6",
-    2076,
-    "Waffe 6"
-  ],
-  [
-    "MSG_CMD_WEAPON6_VERBOSE",
-    2077,
-    "Laserwaffen auswählen/umschalten"
-  ],
-  [
-    "MSG_CMD_WEAPON7",
-    2078,
-    "Waffe 7"
-  ],
-  [
-    "MSG_CMD_WEAPON7_VERBOSE",
-    2079,
-    "Mündungswaffen auswählen/umschalten"
-  ],
-  [
-    "MSG_CMD_WEAPON8",
-    2080,
-    "Waffe 8"
-  ],
-  [
-    "MSG_CMD_WEAPON8_VERBOSE",
-    2081,
-    "Raketenwaffen auswählen/umschalten"
-  ],
-  [
-    "MSG_CMD_WEAPON9",
-    2082,
-    "Waffe 9"
-  ],
-  [
-    "MSG_CMD_WEAPON9_VERBOSE",
-    2083,
-    "Atomwaffen auswählen/umschalten "
-  ],
-  [
-    "MSG_CMD_WEAPON0",
-    2084,
-    "Waffe 10"
-  ],
-  [
-    "MSG_CMD_WEAPON0_VERBOSE",
-    2085,
-    "Waffe zehn auswählen/umschalten"
-  ],
-  [
-    "MSG_CMD_OBJECTIVE",
-    2086,
-    "Einsatzziel"
-  ],
-  [
-    "MSG_CMD_OBJECTIVE_VERBOSE",
-    2087,
-    "Zeigt das Ziel des momentanen Einsatzes an"
-  ],
-  [
-    "MSG_CMD_HALT_AND_ZERO",
-    2088,
-    "Halten & Justieren"
-  ],
-  [
-    "MSG_CMD_HALT_AND_ZERO_VERBOSE",
-    2089,
-    "Halten & Justieren"
-  ],
-  [
-    "MSG_CMD_CENTER_CHECK",
-    2090,
-    "Kanone geradeaus"
-  ],
-  [
-    "MSG_CMD_CENTER_CHECK_VERBOSE",
-    2091,
-    "Dreht Turm und Kanone in Fahrtrichtung"
-  ],
-  [
-    "MSG_CMD_CENTER_TANK",
-    2092,
-    "Panzer ausrichten"
-  ],
-  [
-    "MSG_CMD_CENTER_TANK_VERBOSE",
-    2093,
-    "Dreht den Turm in Richtung der Kanone"
-  ],
-  [
-    "MSG_CMD_CRATER",
-    2094,
-    "Krater"
-  ],
-  [
-    "MSG_CMD_CRATER_VERBOSE",
-    2095,
-    "TEST Build Crater"
-  ],
-  [
-    "MSG_CMD_DITCH",
-    2096,
-    "Ditch"
-  ],
-  [
-    "MSG_CMD_DITCH_VERBOSE",
-    2097,
-    "TEST Build Ditch"
-  ],
-  [
-    "MSG_CMD_QSAND",
-    2098,
-    "Treibsand"
-  ],
-  [
-    "MSG_CMD_QSAND_VERBOSE",
-    2099,
-    "TEST Build Quicksand"
-  ],
-  [
-    "MSG_CMD_DBG_SOILS",
-    2100,
-    "Soils"
-  ],
-  [
-    "MSG_CMD_DBG_SOILS_VERBOSE",
-    2101,
-    "Color non default Soils YELLOW"
-  ],
-  [
-    "MSG_CMD_DBG_CANMODIFY",
-    2102,
-    "'CanModify'"
-  ],
-  [
-    "MSG_CMD_DBG_CANMODIFY_VERBOSE",
-    2103,
-    "Color 'CanModify' regions GREEN"
-  ],
-  [
-    "MSG_CMD_DBG_CLIPTO",
-    2104,
-    "'ClipTo'"
-  ],
-  [
-    "MSG_CMD_DBG_CLIPTO_VERBOSE",
-    2105,
-    "Color 'ClipTo' regions RED"
-  ],
-  [
-    "MSG_CMD_DBG_WORLD",
-    2106,
-    "'Large Objects'"
-  ],
-  [
-    "MSG_CMD_DBG_WORLD_VERBOSE",
-    2107,
-    "Color 'Large Objects' regions BLUE"
-  ],
-  [
-    "MSG_CMD_PERF_STATS",
-    2108,
-    "Spiel-Statistiken"
-  ],
-  [
-    "MSG_CMD_PERF_STATS_VERBOSE",
-    2109,
-    "Spiel-Statistiken"
-  ],
-  [
-    "MSG_CMD_POLY_REPORT",
-    2110,
-    "Poly Report"
-  ],
-  [
-    "MSG_CMD_POLY_REPORT_VERBOSE",
-    2111,
-    "Poly Report"
-  ],
-  [
-    "MSG_CMD_SINGLE_STEP",
-    2112,
-    "Single Step"
-  ],
-  [
-    "MSG_CMD_SINGLE_STEP_VERBOSE",
-    2113,
-    "Einzelschritt"
-  ],
-  [
-    "MSG_CMD_CONTINUE",
-    2114,
-    "Weiter"
-  ],
-  [
-    "MSG_CMD_CONTINUE_VERBSOE",
-    2115,
-    "Weiter"
-  ],
-  [
-    "MSG_CMD_LIMIT_FRAME",
-    2116,
-    "Toggle Frame Time Clamping"
-  ],
-  [
-    "MSG_CMD_LIMIT_FRAME_VERBOSE",
-    2117,
-    "Toggle Frame Time Clamping"
-  ],
-  [
-    "MSG_CMD_INC_FRAME",
-    2118,
-    "Inc Frame Limit"
-  ],
-  [
-    "MSG_CMD_INC_FRAME_VERBSOE",
-    2119,
-    "Increment Frame Limit by 5Hz"
-  ],
-  [
-    "MSG_CMD_DEC_FRAME",
-    2120,
-    "Dec Frame Limit"
-  ],
-  [
-    "MSG_CMD_DEC_FRAME_VERBOSE",
-    2121,
-    "Decrement Frame Limit by 5Hz"
-  ],
-  [
-    "MSG_CMD_CAMERA_ATTACH",
-    2122,
-    "Attach next"
-  ],
-  [
-    "MSG_CMD_CAMERA_ATTACH_VERBOSE",
-    2123,
-    "Attach camera to next vehicle"
-  ],
-  [
-    "MSG_CMD_ATTACH_DIALOG",
-    2124,
-    "Attach camera dialog"
-  ],
-  [
-    "MSG_CMD_ATTACH_DIALOG_VERBOSE",
-    2125,
-    "Attach camera dialog"
-  ],
-  [
-    "MSG_CMD_CAM_TOGGLE",
-    2126,
-    "Perspektive"
-  ],
-  [
-    "MSG_CMD_CAM_TOGGLE_VERBOSE",
-    2127,
-    "Zwischen Innen- und Außenansicht umschalten"
-  ],
-  [
-    "MSG_CMD_GODSEYE_CAM",
-    2128,
-    "Vogelperspektive"
-  ],
-  [
-    "MSG_CMD_GODSEYE_CAM_VERBOSE",
-    2129,
-    "Vogelperspektive auswählen"
-  ],
-  [
-    "MSG_CMD_CAM_UP",
-    2130,
-    "Kamera höher"
-  ],
-  [
-    "MSG_CMD_CAM_UP_VERBOSE",
-    2131,
-    "Kamera höher"
-  ],
-  [
-    "MSG_CMD_CAM_DOWN",
-    2132,
-    "Kamera tiefer "
-  ],
-  [
-    "MSG_CMD_CAM_DOWN_VERBOSE",
-    2133,
-    "Kamera tiefer "
-  ],
-  [
-    "MSG_CMD_CAM_IN",
-    2134,
-    "Kamera näher "
-  ],
-  [
-    "MSG_CMD_CAM_IN_VERBOSE",
-    2135,
-    "Kamera näher "
-  ],
-  [
-    "MSG_CMD_CAM_OUT",
-    2136,
-    "Kamera weiter weg"
-  ],
-  [
-    "MSG_CMD_CAM_OUT_VERBOSE",
-    2137,
-    "Kamera weiter weg"
-  ],
-  [
-    "MSG_CMD_AIM_UP",
-    2138,
-    "Kameraziel weiter weg "
-  ],
-  [
-    "MSG_CMD_AIM_UP_VERBOSE",
-    2139,
-    "Kameraziel weiter weg "
-  ],
-  [
-    "MSG_CMD_AIM_DOWN",
-    2140,
-    "Kameraziel tiefer "
-  ],
-  [
-    "MSG_CMD_AIM_DOWN_VERBOSE",
-    2141,
-    "Kameraziel tiefer "
-  ],
-  [
-    "MSG_CMD_CAM_DIALOG",
-    2142,
-    "Kameradiaolgfenster öffnen "
-  ],
-  [
-    "MSG_CMD_CAM_DIALOG_VERBOSE",
-    2143,
-    "Kameradiaolgfenster öffnen "
-  ],
-  [
-    "MSG_CMD_MISC_TEST",
-    2144,
-    "Do whatever is under test"
-  ],
-  [
-    "MSG_CMD_MISC_TEST_VERBOSE",
-    2145,
-    "Do whatever is under test"
-  ],
-  [
-    "MSG_CMD_MARKER",
-    2146,
-    "Write location info to a file"
-  ],
-  [
-    "MSG_CMD_MARKER_VERBOSE",
-    2147,
-    "Write location info to a file"
-  ],
-  [
-    "MSG_CMD_MAPDISPLAY",
-    2148,
-    "Karte"
-  ],
-  [
-    "MSG_CMD_MAPDISPLAY_VERBOSE",
-    2149,
-    "Karte öffnen"
-  ],
-  [
-    "MSG_CMD_MAPZOOMIN",
-    2150,
-    "Vergrößern"
-  ],
-  [
-    "MSG_CMD_MAPZOOMIN_VERBOSE",
-    2151,
-    "Vergrößern"
-  ],
-  [
-    "MSG_CMD_MAPZOOMOUT",
-    2152,
-    "Verkleinern"
-  ],
-  [
-    "MSG_CMD_MAPZOOMOUT_VERBOSE",
-    2153,
-    "Verkleinern"
-  ],
-  [
-    "MSG_CMD_MAPGOTO",
-    2154,
-    "Gehe zu Kartenkoordinaten"
-  ],
-  [
-    "MSG_CMD_MAPGOTO_VERBOSE",
-    2155,
-    "Gehe zu Kartenkoordinaten"
-  ],
-  [
-    "MSG_CMD_NANITE",
-    2156,
-    "Nanit anwenden"
-  ],
-  [
-    "MSG_CMD_NANITE_VERBOSE",
-    2157,
-    "Nanit anwenden"
-  ],
-  [
-    "MSG_CMD_TELEPORT",
-    2158,
-    "Teleport"
-  ],
-  [
-    "MSG_CMD_TELEPORT_VERBOSE",
-    2159,
-    "Teleport"
-  ],
-  [
-    "MSG_CMD_AMPHIB_PICKUP",
-    2160,
-    "Toggle Amphib Pickup On and Off"
-  ],
-  [
-    "MSG_CMD_AMPHIB_PICKUP_VERBOSE",
-    2161,
-    "Toggle Amphib Pickup On and Off"
-  ],
-  [
-    "MSG_CMD_CAMERA_CURSOR",
-    2162,
-    "Turm arretieren"
-  ],
-  [
-    "MSG_CMD_CAMERA_CURSOR_VERBOSE",
-    2163,
-    "Sperre des Turms arretieren/lösen"
-  ],
-  [
-    "MSG_CMD_TRACK_MODE",
-    2164,
-    "Kette"
-  ],
-  [
-    "MSG_CMD_TRACK_MODE_VERBOSE",
-    2165,
-    "Auf Kettenfahrzeug umschalten"
-  ],
-  [
-    "MSG_CMD_AMPHIB_MODE",
-    2166,
-    "Waten"
-  ],
-  [
-    "MSG_CMD_AMPHIB_MODE_VERBOSE",
-    2167,
-    "Auf Waten Umschalten"
-  ],
-  [
-    "MSG_CMD_HOVER_MODE",
-    2168,
-    "Hover"
-  ],
-  [
-    "MSG_CMD_HOVER_MODE_VERBOSE",
-    2169,
-    "Auf Schwebemodus umschalten (falls verfügbar)"
-  ],
-  [
-    "MSG_CMD_SUB_MODE",
-    2170,
-    "Tauchen"
-  ],
-  [
-    "MSG_CMD_SUB_MODE_VERBOSE",
-    2171,
-    "Auf Tauchmodus umschalten (falls verfügbar)"
-  ],
-  [
-    "MSG_CMD_FLY_MODE",
-    2172,
-    "Flugmodus"
-  ],
-  [
-    "MSG_CMD_FLY_MODE_VERBOSE",
-    2173,
-    "Auf Flugmodus umschalten (falls verfügbar)"
-  ],
-  [
-    "MSG_CMD_MIP_TOGGLE",
-    2174,
-    "Toggle MIP mapping on and off"
-  ],
-  [
-    "MSG_CMD_ZONE_TOGGLE",
-    2176,
-    "Toggle zone switching on and off"
-  ],
-  [
-    "MSG_CMD_ZONE_TOGGLE_VERBOSE",
-    2177,
-    "Toggle zone switching on and off"
-  ],
-  [
-    "MSG_CMD_COLLISION_TOGGLE",
-    2178,
-    "Collision Toggle"
-  ],
-  [
-    "MSG_CMD_COLLISION_TOGGLE_VERBOSE",
-    2179,
-    "Collision Toggle."
-  ],
-  [
-    "MSG_CMD_SHRINK_WINDOW",
-    2180,
-    "Anzeigefenster verkleinern"
-  ],
-  [
-    "MSG_CMD_SHRINK_WINDOW_VERBOSE",
-    2181,
-    "Anzeigefenster verkleinern"
-  ],
-  [
-    "MSG_CMD_GROW_WINDOW",
-    2182,
-    "Anzeigefenster vergrößern"
-  ],
-  [
-    "MSG_CMD_GROW_WINDOW_VERBOSE",
-    2183,
-    "Anzeigefenster vergrößern"
-  ],
-  [
-    "MSG_CMD_HUD_TOGGLE",
-    2184,
-    "HUD"
-  ],
-  [
-    "MSG_CMD_HUD_TOGGLE_VERBOSE",
-    2185,
-    "Head-Up-Display ein/aus"
-  ],
-  [
-    "MSG_CMD_CHEAT_CODE",
-    2186,
-    "Cheat-Code"
-  ],
-  [
-    "MSG_CMD_CHEAT_CODE_VERBOSE",
-    2187,
-    "Fenster zum Eingeben der Cheatcodes aufrufen"
-  ],
-  [
-    "MSG_CMD_TRIGGER1",
-    2188,
-    "Feuerknopf 1"
-  ],
-  [
-    "MSG_CMD_TRIGGER1_VERBOSE",
-    2189,
-    "Impulskanonen abfeuern"
-  ],
-  [
-    "MSG_CMD_TRIGGER2",
-    2190,
-    "Feuerknopf 2"
-  ],
-  [
-    "MSG_CMD_TRIGGER2_VERBOSE",
-    2191,
-    "Ausgewählte Zweitwaffe abfeuern"
-  ],
-  [
-    "MSG_CMD_EDITGAME",
-    2192,
-    "Spiel bearbeiten"
-  ],
-  [
-    "MSG_CMD_EDITGAME_VERBOSE",
-    2193,
-    "Spiel bearbeiten"
-  ],
-  [
-    "MSG_CMD_EDITFIRE",
-    2194,
-    "Game Edit Designator"
-  ],
-  [
-    "MSG_CMD_EDITFIRE_VERBOSE",
-    2195,
-    "Game Edit Designator"
-  ],
-  [
-    "MSG_CMD_EDITUP",
-    2196,
-    "Game Edit Control"
-  ],
-  [
-    "MSG_CMD_EDITUP_VERBOSE",
-    2197,
-    "Game Edit Control"
-  ],
-  [
-    "MSG_CMD_POLY_AREA_UP",
-    2198,
-    "Increase poly rejection area"
-  ],
-  [
-    "MSG_CMD_POLY_AREA_UP_VERBOSE",
-    2199,
-    "Increase poly rejection area"
-  ],
-  [
-    "MSG_CMD_POLY_AREA_DOWN",
-    2200,
-    "Decrease poly rejection area"
-  ],
-  [
-    "MSG_CMD_POLY_AREA_DOWN_VERBOSE",
-    2201,
-    "Decrease poly rejection area"
-  ],
-  [
-    "MSG_CMD_VEH_SND_PITCH_UP",
-    2202,
-    "Increase vehicle dynamic pitch"
-  ],
-  [
-    "MSG_CMD_VEH_SND_PITCH_UP_VERBOSE",
-    2203,
-    "Increase vehicle dynamic pitch"
-  ],
-  [
-    "MSG_CMD_VEH_SND_PITCH_DOWN",
-    2204,
-    "Decrease vehicle dynamic pitch"
-  ],
-  [
-    "MSG_CMD_VEH_SND_PITCH_DOWN_VERBOSE",
-    2205,
-    "Decrease vehicle dynamic pitch"
-  ],
-  [
-    "MSG_CMD_SND_VOL_UP",
-    2206,
-    "Increase vehicle dynamic volume"
-  ],
-  [
-    "MSG_CMD_SND_VOL_UP_VERBOSE",
-    2207,
-    "Increase vehicle dynamic volume"
-  ],
-  [
-    "MSG_CMD_SND_VOL_DOWN",
-    2208,
-    "Decrease vehicle dynamic volume"
-  ],
-  [
-    "MSG_CMD_SND_VOL_DOWN_VERBOSE",
-    2209,
-    "Decrease vehicle dynamic volume"
-  ],
-  [
-    "MSG_CMD_RANGETO",
-    2210,
-    "Entfernung zum Ziel"
-  ],
-  [
-    "MSG_CMD_RANGETO_VERBOSE",
-    2211,
-    "Entfernung zum Ziel"
-  ],
-  [
-    "MSG_CMD_REVIEW",
-    2212,
-    "Überblick"
-  ],
-  [
-    "MSG_CMD_REVIEW_VERBOSE",
-    2213,
-    "Zeigt die aktuellsten Einsatzdaten im Überblick "
-  ],
-  [
-    "MSG_CMD_COCKPIT_TOGGLE",
-    2214,
-    "Cockpit"
-  ],
-  [
-    "MSG_CMD_COCKPIT_TOGGLE_VERBOSE",
-    2215,
-    "Cockpitrahmen ein/aus"
-  ],
-  [
-    "MSG_CMD_VIDEOMODE_TOGGLE",
-    2216,
-    "Auflösung"
-  ],
-  [
-    "MSG_CMD_VIDEOMODE_TOGGLE_VERBOSE",
-    2217,
-    "(640x480<->320x240) (640x400<->320x200)"
-  ],
-  [
-    "MSG_CMD_MMX_TOGGLE",
-    2218,
-    "MMX-Modus ein/aus"
-  ],
-  [
-    "MSG_CMD_MMX_TOGGLE_VERBOSE",
-    2219,
-    "MMX-Modus ein/aus"
-  ],
-  [
-    "MSG_CMD_CAPTURE_BMP",
-    2220,
-    "Screenshot als BMP-Datei speichern"
-  ],
-  [
-    "MSG_CMD_CAPTURE_BMP_VERBOSE",
-    2221,
-    "Screenshot als BMP-Datei speichern"
-  ],
-  [
-    "MSG_CMD_TOGGLE_SNOW",
-    2222,
-    "Toggle Snow Effect"
-  ],
-  [
-    "MSG_CMD_TOGGLE_SNOW_VERBOSE",
-    2223,
-    "Toggle Snow Effect"
-  ],
-  [
-    "MSG_CMD_TOGGLE_SPRITE_RENDER",
-    2224,
-    "Toggle sprite rendering"
-  ],
-  [
-    "MSG_CMD_TOGGLE_SPRITE_RENDER_VERBOSE",
-    2225,
-    "Toggle sprite rendering"
-  ],
-  [
-    "MSG_CMD_TOGGLE_SPRITE_FLASH",
-    2226,
-    "Toggle sprite render flash"
-  ],
-  [
-    "MSG_CMD_TOGGLE_SPRITE_FLASH_VERBOSE",
-    2227,
-    "Toggle sprite render flash"
-  ],
-  [
-    "MSG_CMD_LOAD_GAME",
-    2228,
-    "Laden"
-  ],
-  [
-    "MSG_CMD_LOAD_GAME_VERBOSE",
-    2229,
-    "Lädt alten Spielstand"
-  ],
-  [
-    "MSG_CMD_SAVE_GAME",
-    2230,
-    "Speichern"
-  ],
-  [
-    "MSG_CMD_SAVE_GAME_VERBOSE",
-    2231,
-    "Speichert momentanen Spielstand"
-  ],
-  [
-    "MSG_CMD_DETONATE",
-    2232,
-    "Sprengen"
-  ],
-  [
-    "MSG_CMD_DETONATE_VERBOSE",
-    2233,
-    "Fernzünderminen sprengen"
-  ],
-  [
-    "MSG_CMD_MODEL_VANISH",
-    2234,
-    "Model Vanish"
-  ],
-  [
-    "MSG_CMD_MODEL_VANISH_VERBOSE",
-    2235,
-    "Model Vanish"
-  ],
-  [
-    "MSG_CMD_TAUNT",
-    2236,
-    "Schreiben"
-  ],
-  [
-    "MSG_CMD_TAUNT_VERBOSE",
-    2237,
-    "Fenster zum Schreiben der Mitteilungen im Mehrspielermodus öffnen"
-  ],
-  [
-    "MSG_CMD_WIREFRAME",
-    2238,
-    "Gitterrahmen"
-  ],
-  [
-    "MSG_CMD_WIREFRAME_VERBOSE",
-    2239,
-    "Gitterrahmen"
-  ],
-  [
-    "MSG_CMD_CONSOLE",
-    2240,
-    "Zeige Dolmetscherkonsole"
-  ],
-  [
-    "MSG_CMD_CONSOLE_VERBOSE",
-    2241,
-    "Zeige Dolmetscherkonsole"
-  ],
-  [
-    "MSG_CMD_CAMERA_PUSH",
-    2242,
-    "Kamerschub"
-  ],
-  [
-    "MSG_CMD_CAMERA_PUSH_VERBOSE",
-    2243,
-    "Cursor-Steuerung ein/aus"
-  ],
-  [
-    "MSG_CMD_WEAPON",
-    2244,
-    "Waffe"
-  ],
-  [
-    "MSG_CMD_WEAPON_VERBOSE",
-    2245,
-    "Zeige Waffen-Daten"
-  ],
-  [
-    "MSG_CMD_THROT_MODE",
-    2246,
-    "Gas"
-  ],
-  [
-    "MSG_CMD_THROT_MODE_VERBOSE",
-    2247,
-    "Auf Gas oder variables Gas Umschalten "
-  ],
-  [
-    "MSG_PUBLISHER_NAME",
-    2304,
-    "Electronic Arts"
-  ],
-  [
-    "MSG_GAME_NAME",
-    2305,
-    "RECOIL"
-  ],
-  [
-    "MSG_SHIELDS_AT_MAX",
-    2306,
-    "Schilde auf voller Stärke"
-  ],
-  [
-    "MSG_SHIELD_INCREASE",
-    2307,
-    "Schilde %1!d! Prozent rauf"
-  ],
-  [
-    "MSG_TRANSMIT",
-    2308,
-    "Wird übertragen"
-  ],
-  [
-    "MSG_TRANSMIT_HALT",
-    2309,
-    "...Übertragung angehalten..."
-  ],
-  [
-    "MSG_INCOMING",
-    2310,
-    "Empfange Nachricht - Bitte O drücken"
-  ],
-  [
-    "MSG_DEMO_GAME_NAME",
-    2311,
-    "RECOILDemo"
-  ],
-  [
-    "MSG_LOCK_ON",
-    2312,
-    "Du bist von einer Rakete als Ziel erfaßt worden!"
-  ],
-  [
-    "MSG_CANT_SWIM",
-    2313,
-    "Dein Fahrzeug ist für Wasserdurchquerungen nicht ausgerüstet!"
-  ],
-  [
-    "MSG_TOO_HOT",
-    2320,
-    "Dein Fahrzeug ist für diese Hitze nicht ausgerüstet!"
-  ],
-  [
-    "MSG_CREATE_ENTITY_FAILED",
-    2321,
-    "Konnte neues Wesen nicht erschaffen"
-  ],
-  [
-    "MSG_CREATE_ENTITY",
-    2322,
-    "Erschaffe neues Wesen"
-  ],
-  [
-    "MSG_LEFT_GAME",
-    2323,
-    "Angsthase %1 hat das Spiel verlassen!"
-  ],
-  [
-    "MSG_60_SECS_TO_GO",
-    2324,
-    "Noch 60 Sekunden!"
-  ],
-  [
-    "MSG_GAME_OVER",
-    2325,
-    "Spiel vorbei!"
-  ],
-  [
-    "MSG_NOT_ONBOARD",
-    2326,
-    "Nicht an Bord"
-  ],
-  [
-    "MSG_NO_AMMO",
-    2327,
-    "Keine Munition"
-  ],
-  [
-    "MSG_ONE_LAP_TO_GO",
-    2328,
-    "%1 hat noch eine Runde!"
-  ],
-  [
-    "MSG_M1_O1_SUMMARY",
-    2560,
-    "1:1 Operation Kurzschluß"
-  ],
-  [
-    "MSG_M1_O1_OBJ",
-    2561,
-    "Das Kraftfeld hinter dem Strand versperrt den Zugang zum gegnerischen Stützpunkt oben auf dem Hügel. Finde die Energiequelle und vernichte sie. "
-  ],
-  [
-    "MSG_M1_O1_COMP",
-    2562,
-    "1:1 Weg ist frei"
-  ],
-  [
-    "MSG_M1_O2_SUMMARY",
-    2563,
-    "1:2 Raketenabschuß-Kontrolle"
-  ],
-  [
-    "MSG_M1_O2_OBJ",
-    2564,
-    "Die Befehlsstelle des Stützpunktes ist mit einer Reihe von Flakstellungen verbunden. Wenn Du diese Verbindungen unterbrichst, ist der Befehlsstand ungeschützt. Schlag zu, aber fest. "
-  ],
-  [
-    "MSG_M1_O2_COMP",
-    2565,
-    "1:2 Raketenabschuß-Kontrolle vernichtet"
-  ],
-  [
-    "MSG_M1_O3_SUMMARY",
-    2566,
-    "1:3 Zerstöre die Raketenstellungen"
-  ],
-  [
-    "MSG_M1_O3_OBJ",
-    2567,
-    "Vernichte die Einheiten, die die Raketensilos verteidigen. Dann nimm Dir die Startanlagen vor, bevor die Raketen gezündet werden. Wenn Du schnell bist, hat der Widerstand noch eine Überlebenschance. "
-  ],
-  [
-    "MSG_M1_O3_COMP",
-    2568,
-    "1:3 Raketenstellungen zerstört"
-  ],
-  [
-    "MSG_M1_O4_SUMMARY",
-    2569,
-    "1:4 Begib Dich zum Landeplatz"
-  ],
-  [
-    "MSG_M1_O4_OBJ",
-    2570,
-    "Fahr' weiter zum Senkrechtstarter und manövriere den BFT durch die Frachtluke. Der Flieger bringt Dich dann zum nächsten Einsatz. "
-  ],
-  [
-    "MSG_M1_O4_COMP",
-    2571,
-    "1:4 Senkrechtstarter beladen"
-  ],
-  [
-    "MSG_M2_O1_SUMMARY",
-    2816,
-    "2:1 Technologie erbeutet"
-  ],
-  [
-    "MSG_M2_O1_OBJ",
-    2817,
-    "Dringe in das Netzwerk-Labor ein, kämpfe die Wachtruppen nieder und rüste den BFT mit neuer Technologie aus, damit Du zu den gegnerischen Stellungen auf der anderen Seite des Canyons kommst. "
-  ],
-  [
-    "MSG_M2_O1_COMP",
-    2818,
-    "2:1 Technologie erbeutet"
-  ],
-  [
-    "MSG_M2_O2_SUMMARY",
-    2819,
-    "2:2 Vernichte das Kraftwerk"
-  ],
-  [
-    "MSG_M2_O2_OBJ",
-    2820,
-    "Die beste Art, die gegnerischen Truppen zu schwächen, ist, ihre Hauptstromversorgung lahmzulegen. Schieß' Dich durch die Verteidigung hindurch und zerstöre den Kern. "
-  ],
-  [
-    "MSG_M2_O2_COMP",
-    2821,
-    "2:2 Kraftwerk vernichtet "
-  ],
-  [
-    "MSG_M2_O3_SUMMARY",
-    2822,
-    "2:3 Vernichte die Minenanlage"
-  ],
-  [
-    "MSG_M2_O3_OBJ",
-    2823,
-    "In der Mine bauen die Maschinen Erz für ihre Waffenproduktion ab. Wenn Du die Abbaubagger und Rohrleitungen zerstörst, bist Du Deinem Ziel einen großen Schritt nähergekommen. "
-  ],
-  [
-    "MSG_M2_O3_COMP",
-    2824,
-    "2:3 Minenanlage vernichtet"
-  ],
-  [
-    "MSG_M2_O4_SUMMARY",
-    2825,
-    "2:4 Vernichte den Schmelzofen"
-  ],
-  [
-    "MSG_M2_O4_OBJ",
-    2826,
-    "Der Schmelzofen ist das Herz der Mainframe-Waffenproduktion. Schalte die Verteidigungsanlage aus und laß dieses Herz dahinschmelzen im Feuer des BFT. "
-  ],
-  [
-    "MSG_M2_O4_COMP",
-    2827,
-    "2:4 Schmelzofen vernichtet "
-  ],
-  [
-    "MSG_M2_O5_SUMMARY",
-    2828,
-    "2:5 Weiter zum Heliport"
-  ],
-  [
-    "MSG_M2_O5_OBJ",
-    2829,
-    "Der Senkrechtstarter ist unterwegs. Begib Dich zum Heliport, damit wir Dich in die nächste heiße Zone transportieren können. Wenn Du den Brückenschalter im Schmelzofen getroffen hast, kannst Du zum Landeplatz rüberfahren. "
-  ],
-  [
-    "MSG_M2_O5_COMP",
-    2830,
-    "2:5 Heliport erreicht"
-  ],
-  [
-    "MSG_M3_O1_SUMMARY",
-    3072,
-    "3:1 Betritt das TNT-Gelände "
-  ],
-  [
-    "MSG_M3_O1_OBJ",
-    3073,
-    "Dein Einsatzziel versteckt sich in einem riesigen Vulkankrater. Kämpfe zuerst einmal die Abwehr im Außenbereich nieder und begib Dich in den Hauptkrater. "
-  ],
-  [
-    "MSG_M3_O1_COMP",
-    3074,
-    "3:1 TNT-Gelände erreicht"
-  ],
-  [
-    "MSG_M3_O2_SUMMARY",
-    3075,
-    "3:2 Schließe die Hähne"
-  ],
-  [
-    "MSG_M3_O2_OBJ",
-    3076,
-    "Ein Lavatümpel blockiert die Brücke in der Nähe zweier großer Krater. Wenn Du die Pumpen zerstörst, mit denen der Tümpel gespeist wird, kannst Du ihn trockenlegen und hindurchfahren. "
-  ],
-  [
-    "MSG_M3_O2_COMP",
-    3077,
-    "3:2 Brücke frei"
-  ],
-  [
-    "MSG_M3_O3_SUMMARY",
-    3078,
-    "3:2 Erbeute die Hover-Schwebetechnik"
-  ],
-  [
-    "MSG_M3_O3_OBJ",
-    3079,
-    "Kämpf' Dich durch zur Schwebepanzerfabrik, und fahr' den BFT dort einfach auf das Fließband. Sobald Dein Tank die neue Hovertechnologie eingebaut bekommen hat, kannst Du ganz sanft rübergleiten zum Vulkan. "
-  ],
-  [
-    "MSG_M3_O3_COMP",
-    3080,
-    "3:3 Hover-Schwebetechnik erbeutet"
-  ],
-  [
-    "MSG_M3_O4_SUMMARY",
-    3081,
-    "3:4 Betritt den Kern des Vulkans "
-  ],
-  [
-    "MSG_M3_O4_OBJ",
-    3082,
-    "Schwebe über die Lava zum Eingang des Vulkans und vernichte die Truppen, die in der Tunneleinfahrt Wache halten. Anschließend fährst Du zum Vulkan und feuerst dabei fleißig weiter. "
-  ],
-  [
-    "MSG_M3_O4_COMP",
-    3083,
-    "3:4 Kern des Vulkans erreicht"
-  ],
-  [
-    "MSG_M3_O5_SUMMARY",
-    3084,
-    "3:5 Vernichte TNT-Srahl"
-  ],
-  [
-    "MSG_M3_O5_OBJ",
-    3085,
-    "Der TNT-Strahl befindet sich im Vulkankrater. Kämpfe Dich nach oben durch und dann nimm den Strahl ins Visier. Sein Schwachpunkt befindet sich in der Mitte. Weich' den Lasern aus und greif' an! "
-  ],
-  [
-    "MSG_M3_O5_COMP",
-    3086,
-    "3:5 TNT-Strahl vernichtet"
-  ],
-  [
-    "MSG_M3_O6_SUMMARY",
-    3087,
-    "3:6 Begib Dich zum Heliport"
-  ],
-  [
-    "MSG_M3_O6_OBJ",
-    3088,
-    "Begib Dich zum Senkrechtstarter, bevor die ganze Anlage in Lava schwimmt! "
-  ],
-  [
-    "MSG_M3_O6_COMP",
-    3089,
-    "3:6 Heliport erreicht"
-  ],
-  [
-    "MSG_M4_O1_SUMMARY",
-    3328,
-    "4:1 Der Damm ist gebrochen"
-  ],
-  [
-    "MSG_M4_O1_OBJ",
-    3329,
-    "Die Mainframe-Maschinen produzieren chemische Waffen. Die erste Maßnahme dagegen ist die Unterbrechung ihrer Wasserzufuhr. Zerstöre die Ablaßventile am Hauptdamm und zieh ihnen damit die Stöpsel aus der Wanne. "
-  ],
-  [
-    "MSG_M4_O1_COMP",
-    3330,
-    "4:1 Der Damm ist gebrochen"
-  ],
-  [
-    "MSG_M4_O2_SUMMARY",
-    3331,
-    "4:2 Vernichte die Fabrik"
-  ],
-  [
-    "MSG_M4_O2_OBJ",
-    3332,
-    "Die Raketenfabrik stellt die Transportmittel für die chemischen Waffen des Mainframe her. Schalte sie aus, bevor die Raketen startbereit sind. "
-  ],
-  [
-    "MSG_M4_O2_COMP",
-    3333,
-    "4:2 Raketenfabrik vernichtet"
-  ],
-  [
-    "MSG_M4_O3_SUMMARY",
-    3334,
-    "4:3 Greife die Chemiefabrik an "
-  ],
-  [
-    "MSG_M4_O3_OBJ",
-    3335,
-    "Chemiefabriken sind generell leicht brennbar. Die richtige Menge Feuerwerk, eingesetzt an der richtigen Stelle, und schon kannst Du die ganze Anlage abschreiben. "
-  ],
-  [
-    "MSG_M4_O3_COMP",
-    3336,
-    "4:3 Chemiefabrik vernichtet"
-  ],
-  [
-    "MSG_M4_O4_SUMMARY",
-    3337,
-    "4:4 Suche eine Geheimwaffe"
-  ],
-  [
-    "MSG_M4_O4_OBJ",
-    3338,
-    "Informationen beweisen, daß die Maschinen unter den Ruinen an einer Geheimwaffe bauen. Finde sie und beende diese neue Bedrohung. "
-  ],
-  [
-    "MSG_M4_O4_COMP",
-    3339,
-    "4:4 Geheimwaffe vernichtet"
-  ],
-  [
-    "MSG_M4_O5_SUMMARY",
-    3340,
-    "4:5 Begib Dich zum Heliport"
-  ],
-  [
-    "MSG_M4_O5_OBJ",
-    3341,
-    "Nachdem uns jetzt keine chemischen Kampfstoffe mehr bedrohen, kannst Du Dich dort zurückziehen. Begib Dich zur Landestelle des Senkrechtstarters, wir lassen Dich abholen. "
-  ],
-  [
-    "MSG_M4_O5_COMP",
-    3342,
-    "4:5 Heliport erreicht"
-  ],
-  [
-    "MSG_M4_O6_SUMMARY",
-    3343,
-    "Nicht benutzt"
-  ],
-  [
-    "MSG_M4_O6_OBJ",
-    3344,
-    "Nicht benutzt"
-  ],
-  [
-    "MSG_M4_O6_COMP",
-    3345,
-    "Nicht benutzt"
-  ],
-  [
-    "MSG_M5_O1_SUMMARY",
-    3584,
-    "5:1 Eidbrecher"
-  ],
-  [
-    "MSG_M5_O1_OBJ",
-    3585,
-    "Ein schwerbewaffnetes Kommunikationszentrum versperrt den Zugang zu den gegnerischen Anlagen unter dem Eis. Schalte es aus und begib Dich unter die Oberfläche des Gletschers. "
-  ],
-  [
-    "MSG_M5_O1_COMP",
-    3586,
-    "5:1 Zugang zur unterirdischen Anlage erkämpft"
-  ],
-  [
-    "MSG_M5_O2_SUMMARY",
-    3587,
-    "5:2 Stoppe die Verschickung der Clones"
-  ],
-  [
-    "MSG_M5_O2_OBJ",
-    3588,
-    "Eine neue Ladung wird gerade bereitgemacht zum Versand in die Clonestadt des Mainframes. Arbeite Dich zur Frachtrampe der Anlage vor und vernichte die Clones. "
-  ],
-  [
-    "MSG_M5_O2_COMP",
-    3589,
-    "5:2 Clone-Ladung zerstört"
-  ],
-  [
-    "MSG_M5_O3_SUMMARY",
-    3590,
-    "5:3 Erbeute die Tauchtechnologie"
-  ],
-  [
-    "MSG_M5_O3_OBJ",
-    3591,
-    "Die meisten gegnerischen Anlagen liegen unter Wasser. Begib Dich zur U-Boot-Werft und laß den BFT mit einer Tieftauchausrüstung versehen, damit Du den Gegner da unten angreifen kannst. "
-  ],
-  [
-    "MSG_M5_O3_COMP",
-    3592,
-    "5:3 Tauchtechnologie erbeutet"
-  ],
-  [
-    "MSG_M5_O4_SUMMARY",
-    3593,
-    "5:4 Zerstöre das Kraftwerk"
-  ],
-  [
-    "MSG_M5_O4_OBJ",
-    3594,
-    "Die Mainframe-Maschinen gewinnen an Energie, indem sie dem Meeresboden Wärme entziehen. Tauch hinunter und bring Fernzünderminen an den Auslässen des geothermischen Kraftwerkes an. "
-  ],
-  [
-    "MSG_M5_O4_COMP",
-    3595,
-    "5:4 Kraftwerk zerstört"
-  ],
-  [
-    "MSG_M5_O5_SUMMARY",
-    3596,
-    "5:5 Clonelabor zerstören"
-  ],
-  [
-    "MSG_M5_O5_OBJ",
-    3597,
-    "Der einzige Weg, über den man in die Produktionsanlagen hineinkommt, führt durch Unterwassertunnel. Tauch runter, arbeite Dich durch die Eishöhle und nimm die Maschine auseinander. "
-  ],
-  [
-    "MSG_M5_O5_COMP",
-    3598,
-    "5:5 Clonelabor zerstört"
-  ],
-  [
-    "MSG_M5_O6_SUMMARY",
-    3599,
-    "5:6 Geh zur Landestelle des Senkrechtstarters"
-  ],
-  [
-    "MSG_M5_O6_OBJ",
-    3600,
-    "Du hast alle Clone-Anlagen vernichtet. Begib Dich zur Landestelle des Senkrechtstarters, wo Du abgeholt wirst. "
-  ],
-  [
-    "MSG_M5_O6_COMP",
-    3601,
-    "5:6 Einsatz erfolgreich"
-  ],
-  [
-    "MSG_M6_O1_SUMMARY",
-    3840,
-    "6:1 Geh nach unten"
-  ],
-  [
-    "MSG_M6_O1_OBJ",
-    3841,
-    "Das Mainframe-Netzwerk baut eine Stadt unter den Ruinen dieser Stadt! Kämpfe Dich zum Aufzug durch, der hinunterführt zur Baustelle. "
-  ],
-  [
-    "MSG_M6_O1_COMP",
-    3842,
-    "6:1 Lift fährt abwärts"
-  ],
-  [
-    "MSG_M6_O2_SUMMARY",
-    3843,
-    "6:2 Schalte den Strom aus"
-  ],
-  [
-    "MSG_M6_O2_OBJ",
-    3844,
-    "Unsere Sensoren zeigen, daß der Zentralkern des Netzwerks seine Energie von drei großen, etwas entfernt gelegenen Kraftwerken bezieht. Du kannst sie über Transporter erreichen. "
-  ],
-  [
-    "MSG_M6_O2_COMP",
-    3845,
-    "6:2 Energiestation vernichtet "
-  ],
-  [
-    "MSG_M6_O3_SUMMARY",
-    3846,
-    "6:3 Noch eine Station "
-  ],
-  [
-    "MSG_M6_O3_OBJ",
-    3847,
-    "Schwebe über den heißen Kram weg, finde die Energiestation und zieh den Stecker raus. "
-  ],
-  [
-    "MSG_M6_O3_COMP",
-    3848,
-    "6:3 Energiestation vernichtet "
-  ],
-  [
-    "MSG_M6_O4_SUMMARY",
-    3849,
-    "6:4 Die letzte Station "
-  ],
-  [
-    "MSG_M6_O4_OBJ",
-    3850,
-    "Der Zugang zur letzten Station führt durch einen Unterwasser-Gang. Schalte um auf Tauchmodus, und runter mit Dir! "
-  ],
-  [
-    "MSG_M6_O4_COMP",
-    3851,
-    "6:4 Energiestation vernichtet"
-  ],
-  [
-    "MSG_M6_O5_SUMMARY",
-    3852,
-    "6:5 Zerstöre die Maschine"
-  ],
-  [
-    "MSG_M6_O5_OBJ",
-    3853,
-    "Ohne seine Energiestation liegt der Zentralkern des Netzewerkes frei! Schlag mit allem zu, was Du hast, und vernichte das System. "
-  ],
-  [
-    "MSG_M6_O5_COMP",
-    3854,
-    "6:5 Sieg!"
-  ],
-  [
-    "MSG_CAMPAIGN_DONE",
-    3855,
-    "Kampagne beendet. Keine weiteren Ziele."
-  ],
-  [
-    "MSG_CHEAT_AMMO",
-    4096,
-    "Munition"
-  ],
-  [
-    "MSG_CHEAT_HEALTH",
-    4097,
-    "Gesundheit"
-  ],
-  [
-    "MSG_CHEAT_INVINCIBLE",
-    4098,
-    "Unbesiegbar"
-  ],
-  [
-    "MSG_CHEAT_TIMER",
-    4099,
-    "Zeit"
-  ],
-  [
-    "MSG_CHEAT_FRAMERATE",
-    4100,
-    "Bildtempo"
-  ],
-  [
-    "MSG_CHEAT_GOD",
-    4101,
-    "Gott"
-  ],
-  [
-    "MSG_DLG_OPTIONSPANEL_MUST_RESTART",
-    8192,
-    "* Feldzug muß neu gestartet werden, damit Änderungen aktiv werden "
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_RETURN",
-    8193,
-    "Return"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_HIGH",
-    8194,
-    "HOCH"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_MED",
-    8195,
-    "MITTEL"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_LOW",
-    8196,
-    "NIEDRIG"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_MAX",
-    8197,
-    "MAX*"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_8MB",
-    8198,
-    "8 MB*"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_6MB",
-    8199,
-    "6 MB*"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_4MB",
-    8200,
-    "4 MB*"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_2MB",
-    8201,
-    "2 MB*"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_HIGH_STAR",
-    8202,
-    "HOCH*"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_MED_STAR",
-    8203,
-    "MITTEL*"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_LOW_STAR",
-    8204,
-    "NIEDRIG*"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_TO_ZERO",
-    8208,
-    "Gas"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_NON_RETURN",
-    8209,
-    "Dauer-"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_TO_ZERO2",
-    8210,
-    "Gas"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_CURSOR",
-    8211,
-    "Cursor"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_STEERS_TANK",
-    8212,
-    "Steuert"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_CURSOR2",
-    8213,
-    "Cursor"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_TURNS_TURRET",
-    8214,
-    "Dreht"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_SCREEN",
-    8215,
-    "Bildschirm"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_POSITION",
-    8216,
-    "Position"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_SENSITIVE",
-    8217,
-    "Sensitiv"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_REQUIRES",
-    8218,
-    "benötigt"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_CURSOR3",
-    8219,
-    "Cursor"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_PUSH",
-    8220,
-    "Drücken"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_FIRST",
-    8221,
-    "Innen-"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_PERSON",
-    8222,
-    "Ansicht"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_THIRD",
-    8223,
-    "Außen-"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_PERSON2",
-    8224,
-    "Ansicht"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_STEERS_TANK_2",
-    8225,
-    "den Panzer"
-  ],
-  [
-    "MSG_DLG_CONTROLS_DIALOG_TURNS_TURRET_2",
-    8226,
-    "den Turm"
-  ],
-  [
-    "MSG_CAMPAIGN1_NAME",
-    8240,
-    "Inselsturm "
-  ],
-  [
-    "MSG_CAMPAIGN2_NAME",
-    8241,
-    "Rost und Metall "
-  ],
-  [
-    "MSG_CAMPAIGN3_NAME",
-    8242,
-    "Thermischer Schmelzpunkt "
-  ],
-  [
-    "MSG_CAMPAIGN4_NAME",
-    8243,
-    "Tal des Giftes"
-  ],
-  [
-    "MSG_CAMPAIGN5_NAME",
-    8244,
-    "Kalte Schlachtplatte "
-  ],
-  [
-    "MSG_CAMPAIGN6_NAME",
-    8245,
-    "Netzwerk-Showdown"
-  ],
-  [
-    "MSG_CAMPAIGN7_NAME",
-    8246,
-    "Flußbegradigung"
-  ],
-  [
-    "MSG_CAMPAIGN8_NAME",
-    8247,
-    "Kraterchaos"
-  ],
-  [
-    "MSG_CAMPAIGN9_NAME",
-    8248,
-    "Strandrallye"
-  ],
-  [
-    "MSG_CAMPAIGN10_NAME",
-    8249,
-    "Cranium"
-  ],
-  [
-    "MSG_CAMPAIGN11_NAME",
-    8250,
-    "Gefrorene Tundra"
-  ],
-  [
-    "MSG_CAMPAIGN12_NAME",
-    8251,
-    "Böse Wasserfälle "
-  ],
-  [
-    "MSG_CAMPAIGN13_NAME",
-    8252,
-    "Transporter-Trauma"
-  ],
-  [
-    "MSG_WOL_UPGRADE",
-    12289,
-    "Upgrade wird benötigt"
-  ],
-  [
-    "MSG_WOL_UPGRADE_ASK",
-    12290,
-    "Für dieses Spiel ist ein Upgrade für Westwood Online nötig.%n%nWollen Sie es jetzt downloaden?"
-  ],
-  [
-    "MSG_WOL_ERROR",
-    12291,
-    "Fehler bei Westwood Online"
-  ],
-  [
-    "MSG_WOL_USER_QUIT",
-    12292,
-    "Teilnehmer <%1> ist gegangen."
-  ],
-  [
-    "MSG_WOL_NO_LOBBIES",
-    12293,
-    "Es gibt momentan keine Lobby für dieses Spiel."
-  ],
-  [
-    "MSG_WOL_ONE_LOBBY",
-    12294,
-    "Es gibt eine Lobby für dieses Spiel."
-  ],
-  [
-    "MSG_WOL_NUM_LOBBIES",
-    12295,
-    "Es gibt %1!d! Lobbies für dieses Spiel."
-  ],
-  [
-    "MSG_WOL_LOGIN_USED",
-    12296,
-    "Dieser Name wird bereits benutzt."
-  ],
-  [
-    "MSG_WOL_LOGIN_BAD",
-    12297,
-    "Login/Paßwort falsch."
-  ],
-  [
-    "MSG_WOL_TEMP_BANNED",
-    12298,
-    "Sie haben zeitweise Kanalverbot."
-  ],
-  [
-    "MSG_WOL_NET_TIMEOUT",
-    12299,
-    "Netzwerk-Verbindungszeit abgelaufen. Bitte später erneut versuchen."
-  ],
-  [
-    "MSG_WOL_NO_CONNECT",
-    12300,
-    "Keine Verbindung möglich."
-  ],
-  [
-    "MSG_WOL_CHANNEL_CREATE_ERROR",
-    12301,
-    "Fehler beim Anlegen des Kanals."
-  ],
-  [
-    "MSG_WOL_CHANNEL_CREATED",
-    12302,
-    "Kanal {%1} angelegt."
-  ],
-  [
-    "MSG_WOL_GAME_CREATED",
-    12303,
-    "Spiel {%1} angelegt."
-  ],
-  [
-    "MSG_WOL_CHANNEL_FULL",
-    12304,
-    "Kanal voll."
-  ],
-  [
-    "MSG_WOL_JOIN_CHANNEL_ERROR",
-    12305,
-    "Fehler beim Beitritt zu Kanal:"
-  ],
-  [
-    "MSG_WOL_STATUS_ERROR",
-    12306,
-    "Statusfehler."
-  ],
-  [
-    "MSG_WOL_CHANNEL_NOT_EXIST",
-    12307,
-    "Kanal existiert nicht."
-  ],
-  [
-    "MSG_WOL_PASSWORD_REQUIRED",
-    12308,
-    "Paßwort erforderlich für diesen Kanal."
-  ],
-  [
-    "MSG_WOL_USER_JOINED_CHANNEL",
-    12309,
-    "Teilnehmer <%1> ist Kanal {%2} beigetreten."
-  ],
-  [
-    "MSG_WOL_USER_LEFT_CHANNEL",
-    12310,
-    "Teilnehmer <%1> hat Kanal {%2} verlassen."
-  ],
-  [
-    "MSG_WOL_I_AM_HOST",
-    12311,
-    " (Ich bin Spielleiter)"
-  ],
-  [
-    "MSG_WOL_USER_IS_ME",
-    12312,
-    " *"
-  ],
-  [
-    "MSG_WOL_USER_IS_HOST",
-    12313,
-    " (Spielleiter)"
-  ],
-  [
-    "MSG_WOL_DISCONNECTING",
-    12314,
-    "Löse Verbindung zu Westwood Online..."
-  ],
-  [
-    "MSG_WOL_PUBLIC_MESSAGE",
-    12315,
-    "[%1] : %2"
-  ],
-  [
-    "MSG_WOL_PRIVATE_MESSAGE",
-    12316,
-    "<%1> : %2"
-  ],
-  [
-    "MSG_WOL_PAGE",
-    12317,
-    "(Pager von %1) * %2 *"
-  ],
-  [
-    "MSG_WOL_PAGE_SENT",
-    12318,
-    "Pagen läuft."
-  ],
-  [
-    "MSG_WOL_PAGES_DISABLED",
-    12319,
-    "Dieser Teilnehmer hat seinen Pager abgestellt."
-  ],
-  [
-    "MSG_WOL_USER_NOT_LOGGED_IN",
-    12320,
-    "Dieser Teilnehmer ist nicht eingeloggt."
-  ],
-  [
-    "MSG_WOL_USER_CANNOT_BE_PAGED",
-    12321,
-    "Dieser Teilnehmer hat seinen Pager abgestellt."
-  ],
-  [
-    "MSG_WOL_USER_IN_CHANNEL",
-    12322,
-    "Dieser Teilnehmer ist in Kanal {%1}."
-  ],
-  [
-    "MSG_WOL_USER_NOT_IN_CHANNELS",
-    12323,
-    "Dieser Teilnehmer ist in keinem Kanal zu finden."
-  ],
-  [
-    "MSG_WOL_USER_HAS_FIND_DISABLED",
-    12324,
-    "Dieser Teilnehmer hat seine Suchfunktion abgestellt."
-  ],
-  [
-    "MSG_WOL_FIND_FAILED",
-    12325,
-    "Suche fehlgeschlagen."
-  ],
-  [
-    "MSG_WOL_SYSTEM_MESSAGE",
-    12326,
-    ">>> %1"
-  ],
-  [
-    "MSG_WOL_CHAT_CHANNEL_LIST",
-    12327,
-    "%1  (%2!d! momentan)"
-  ],
-  [
-    "MSG_WOL_CHANNEL_NAME_LATENCY",
-    12328,
-    "%1  %2!d!/%3!d!  Verzögerung [%4]"
-  ],
-  [
-    "MSG_WOL_BANNED_UNTIL",
-    12330,
-    "Sie haben Kanalverbot bis %1."
-  ],
-  [
-    "MSG_WOL_USER_BANNED_FROM_CHANNEL",
-    12331,
-    "<%1> erhielt Kanalverbot."
-  ],
-  [
-    "MSG_WOL_BAN_REMOVED",
-    12332,
-    "Das Verbot für <%1> wurde aufgehoben."
-  ],
-  [
-    "MSG_WOL_KICKED_OUT_OF_CHANNEL",
-    12333,
-    "Sie wurden von <%2> aus dem Kanal {%2} geworfen. "
-  ],
-  [
-    "MSG_WOL_USER_KICKED_OUT_OF_CHANNEL",
-    12334,
-    "Spieler <%1> wurde von <%3> aus dem Kanal {%2} geworfen. "
-  ],
-  [
-    "MSG_WOL_DLL_INSTALL_ERROR",
-    12335,
-    "Das Setup-Programm von Westwood Online wurde nicht korrekt registriert.%nBitte installieren Sie RECOIL von der RECOIL-CD neu."
-  ],
-  [
-    "MSG_WOL_INSTALL_ERROR",
-    12336,
-    "Installationsfehler"
-  ],
-  [
-    "MSG_WOL_CONNECTION_TIMEOUT_MSG",
-    12337,
-    "Zeit für den Verbindungsaufbau zu Westwood Online abgelaufen (Haben Sie Westwood Online von der RECOIL-CD installiert und sich registrieren lassen?).%nWollen Sie noch weitere 15 Sekunden warten?"
-  ],
-  [
-    "MSG_WOL_CONNECTION_ERROR",
-    12338,
-    "Verbindungsfehler"
-  ],
-  [
-    "MSG_WOL_CONNECTING",
-    12339,
-    "Verbinde mit Westwood Online..."
-  ],
-  [
-    "MSG_WOL_RECOIL",
-    12340,
-    "RECOIL auf Westwood Online"
-  ],
-  [
-    "MSG_WOL_CONNECTION_ABORT",
-    12341,
-    "Verbindung fehlgeschlagen, wird abgebrochen."
-  ],
-  [
-    "MSG_WOL_HOST_HAS_LEFT",
-    12342,
-    "Der Gastgeber hat den Kanal verlassen. Beende Kanal {%1}."
-  ],
-  [
-    "MSG_WOL_KILLS_NEEDED_TO_WIN",
-    12343,
-    "Benötigte Abschüsse zum Sieg"
-  ],
-  [
-    "MSG_WOL_MESSAGE_TO_USER",
-    12344,
-    "{ Mitteilung an %1 } %2"
-  ],
-  [
-    "MSG_WOL_PUBLIC_ACTION_TO_USER",
-    12345,
-    "{ %1 Öffentliche Aktion } %2"
-  ],
-  [
-    "MSG_WOL_ACTION_TO_USER",
-    12346,
-    "{ Aktion an %1 } %2"
-  ],
-  [
-    "MSG_WOL_UNSQUELCH_USER",
-    12347,
-    "Spieler war stummgeschaltet, wird wieder zugeschaltet."
-  ],
-  [
-    "MSG_WOL_SQUELCH_USER",
-    12348,
-    "Spieler stummgeschaltet."
-  ],
-  [
-    "MSG_WOL_PAGE_NAME_ERROR",
-    12349,
-    "Zu pagende Person:"
-  ],
-  [
-    "MSG_WOL_CHANNEL_NAME_ERROR",
-    12350,
-    "Konnte Kanal nicht anlegen, einige der benutzten Zeichen dürfen in Kanalnamen nicht vorkommen."
-  ],
-  [
-    "MSG_WOL_NEED_GAME_NAME",
-    12351,
-    "Geben Sie den Spielnamen im Fenster 'Neuer Kanalname' ein%nund klicken Sie auf die Taste 'Neu'."
-  ],
-  [
-    "MSG_WOL_LAPS_TO_WIN",
-    12352,
-    "Runden zum Sieg"
-  ],
-  [
-    "MSG_WOL_KILLS_TO_WIN",
-    12353,
-    "Abschüsse zum Sieg"
-  ],
-  [
-    "MSG_WOL_JOIN_IN_PROGRESS",
-    12354,
-    "Vorherige Kanal-Anforderung noch nicht abgeschlossen"
-  ],
-  [
-    "MSG_WOL_UPGRADE_PROGRESS",
-    12355,
-    "Lade Datei %1!d! von %2!d!..."
-  ],
-  [
-    "MSG_WOL_NICKNAME_1",
-    12356,
-    "1. Login-Name"
-  ],
-  [
-    "MSG_WOL_NICKNAME_2",
-    12357,
-    "2. Login-Name"
-  ],
-  [
-    "MSG_WOL_RESTART_REQUIRED",
-    12358,
-    "Sie müssen RECOIL neu starten."
-  ],
-  [
-    "MSG_DLG_NEWGAME",
-    36864,
-    "NEUES SPIEL "
-  ],
-  [
-    "MSG_DLG_LOADGAME",
-    36865,
-    "SPIEL LADEN "
-  ],
-  [
-    "MSG_DLG_OPTIONS",
-    36866,
-    "OPTIONEN"
-  ],
-  [
-    "MSG_DLG_CONTROLS",
-    36867,
-    "STEUERUNG"
-  ],
-  [
-    "MSG_DLG_CREDITS",
-    36868,
-    "DAS TEAM"
-  ],
-  [
-    "MSG_DLG_QUIT",
-    36869,
-    "ENDE"
-  ],
-  [
-    "MSG_DLG_RESUME",
-    36870,
-    "WEITER"
-  ],
-  [
-    "MSG_DLG_SAVEGAME",
-    36871,
-    "SPIEL SPEICHERN "
-  ],
-  [
-    "MSG_DLG_LIGHTING",
-    36872,
-    "BELEUCHTUNG"
-  ],
-  [
-    "MSG_DLG_OBJECT_DETAIL",
-    36873,
-    "OBJEKTDETAILS "
-  ],
-  [
-    "MSG_DLG_SOUND",
-    36874,
-    "GERÄUSCHE"
-  ],
-  [
-    "MSG_DLG_MUSIC",
-    36875,
-    "MUSIK"
-  ],
-  [
-    "MSG_DLG_RES",
-    36876,
-    "AUFLÖSUNG"
-  ],
-  [
-    "MSG_DLG_TEXTURE_MEMORY",
-    36877,
-    "TEXTURENSPEICHER "
-  ],
-  [
-    "MSG_DLG_PERSPECTIVE",
-    36878,
-    "PERSPEKTIVE"
-  ],
-  [
-    "MSG_DLG_EFFECTS",
-    36879,
-    "EFFEKTE"
-  ],
-  [
-    "MSG_DLG_FULL_HUD",
-    36880,
-    "VOLLES HUD"
-  ],
-  [
-    "MSG_DLG_BACK",
-    36881,
-    "ZURÜCK"
-  ],
-  [
-    "MSG_DLG_START",
-    36882,
-    "START"
-  ],
-  [
-    "MSG_DLG_EASY",
-    36883,
-    "LEICHT"
-  ],
-  [
-    "MSG_DLG_MEDIUM",
-    36884,
-    "MITTEL"
-  ],
-  [
-    "MSG_DLG_HARD",
-    36885,
-    "SCHWER"
-  ],
-  [
-    "MSG_DLG_DIFFICULTY",
-    36886,
-    "SCHWIERIGKEITSSTUFE"
-  ],
-  [
-    "MSG_DLG_ENTER_NAME",
-    36887,
-    "NAMEN EINGEBEN "
-  ],
-  [
-    "MSG_DLG_SAVE",
-    36888,
-    "SPEICHERN"
-  ],
-  [
-    "MSG_DLG_LOAD",
-    36889,
-    "LADEN"
-  ],
-  [
-    "MSG_DLG_DELETE",
-    36890,
-    "LÖSCHEN"
-  ],
-  [
-    "MSG_DLG_MOUSE_SLASH",
-    36891,
-    "MAUS/"
-  ],
-  [
-    "MSG_DLG_JOYSTICK_SLASH",
-    36892,
-    "JOYSTICK/"
-  ],
-  [
-    "MSG_DLG_KEYBOARD",
-    36893,
-    "TASTATUR"
-  ],
-  [
-    "MSG_DLG_COMMANDS",
-    36894,
-    "BEFEHLE"
-  ],
-  [
-    "MSG_DLG_DEFAULT",
-    36895,
-    "STANDARD"
-  ],
-  [
-    "MSG_DLG_DESCRIPTION",
-    36896,
-    "BESCHREIBUNG"
-  ],
-  [
-    "MSG_DLG_KEYA",
-    36897,
-    "KNOPF A"
-  ],
-  [
-    "MSG_DLG_KEYB",
-    36898,
-    "KNOPF B"
-  ],
-  [
-    "MSG_DLG_JOYSTICK",
-    36899,
-    "JOYSTICK"
-  ],
-  [
-    "MSG_DLG_MOUSE",
-    36900,
-    "MAUS"
-  ],
-  [
-    "MSG_DLG_GAME_NAME",
-    36901,
-    "SPIELNAME "
-  ],
-  [
-    "MSG_DLG_TIME",
-    36902,
-    "ZEIT"
-  ],
-  [
-    "MSG_DLG_LIMIT",
-    36903,
-    "LIMIT"
-  ],
-  [
-    "MSG_DLG_MAX",
-    36904,
-    "MAX."
-  ],
-  [
-    "MSG_DLG_PLAYER",
-    36905,
-    "SPIELER"
-  ],
-  [
-    "MSG_DLG_NAME_TAGS",
-    36906,
-    "NAMENSSCHILDER "
-  ],
-  [
-    "MSG_DLG_MAPS",
-    36908,
-    "KARTEN"
-  ],
-  [
-    "MSG_DLG_KILL",
-    36909,
-    "ABSCHÜSSE"
-  ],
-  [
-    "MSG_DLG_LAPS",
-    36910,
-    "RUNDEN"
-  ],
-  [
-    "MSG_DLG_EXIT",
-    36911,
-    "ENDE"
-  ],
-  [
-    "MSG_DLG_CHEATCODE",
-    36912,
-    "CHEATCODE"
-  ],
-  [
-    "MSG_DLG_IMA",
-    36913,
-    "ICH BIN EIN "
-  ],
-  [
-    "MSG_DLG_LOSER",
-    36914,
-    "VERLIERERTYP"
-  ],
-  [
-    "MSG_DLG_MAINMENU",
-    36915,
-    "HAUPTMENÜ"
-  ],
-  [
-    "MSG_DLG_YES",
-    36916,
-    "JA"
-  ],
-  [
-    "MSG_DLG_NO",
-    36917,
-    "NEIN"
-  ],
-  [
-    "MSG_DLG_OK",
-    36918,
-    "OK"
-  ],
-  [
-    "MSG_DLG_CANCEL",
-    36919,
-    "ABBRUCH"
-  ],
-  [
-    "MSG_DLG_MULTIPLAYER",
-    36920,
-    "MEHRSPIELER"
-  ],
-  [
-    "MSG_DLG_CAMPAIGN",
-    36921,
-    "FELDZUG"
-  ],
-  [
-    "MSG_DLG_RESTART",
-    36922,
-    "NEUSTART"
-  ],
-  [
-    "MSG_DPERR_ACCESSDENIED",
-    36945,
-    "Zugriff verweigert "
-  ],
-  [
-    "MSG_DPERR_ALREADYINITIALIZED",
-    36946,
-    "Bereits initialisiert "
-  ],
-  [
-    "MSG_DPERR_AUTHENTICATIONFAILED",
-    36947,
-    "Überprüfung fehlgeschlagen "
-  ],
-  [
-    "MSG_DPERR_CANNOTCREATESERVER",
-    36948,
-    "Kann Server nicht anlegen "
-  ],
-  [
-    "MSG_DPERR_CANTLOADCAPI",
-    36949,
-    "Kryptographie-Fehler "
-  ],
-  [
-    "MSG_DPERR_CANTLOADSECURITYPACKAGE",
-    36950,
-    "Kann Sicherheitspaket nicht laden "
-  ],
-  [
-    "MSG_DPERR_CANTLOADSSPI",
-    36951,
-    "Sicherheitsdienst-Fehler "
-  ],
-  [
-    "MSG_DPERR_CONNECTING",
-    36952,
-    "Fehler beim Verbindungsaufbau "
-  ],
-  [
-    "MSG_DPERR_CONNECTIONLOST",
-    36953,
-    "Verbindung abgebrochen "
-  ],
-  [
-    "MSG_DPERR_ENCRYPTIONFAILED",
-    36954,
-    "Verschlüsselung fehlgeschlagen "
-  ],
-  [
-    "MSG_DPERR_ENCRYPTIONNOTSUPPORTED",
-    36955,
-    "Verschlüsselung nicht unterstützt "
-  ],
-  [
-    "MSG_DPERR_INVALIDFLAGS",
-    36956,
-    "Bedaure, ungültige Flags gesetzt "
-  ],
-  [
-    "MSG_DPERR_INVALIDPARAMS",
-    36957,
-    "Bedaure, ungültige Parameter"
-  ],
-  [
-    "MSG_DPERR_INVALIDPASSWORD",
-    36958,
-    "Ungültiges Paßwort "
-  ],
-  [
-    "MSG_DPERR_LOGONDENIED",
-    36959,
-    "Log-On nicht gestattet "
-  ],
-  [
-    "MSG_DPERR_NOCONNECTION",
-    36960,
-    "Keine Verbindung "
-  ],
-  [
-    "MSG_DPERR_NONEWPLAYERS",
-    36961,
-    "Keine neuen Spieler zugelassen "
-  ],
-  [
-    "MSG_DPERR_NOSESSIONS",
-    36962,
-    "Keine existierenden Spielrunden "
-  ],
-  [
-    "MSG_DPERR_SIGNFAILED",
-    36963,
-    "Signatur fehlgeschlagen "
-  ],
-  [
-    "MSG_DPERR_TIMEOUT",
-    36964,
-    "Zeit-Überlauf "
-  ],
-  [
-    "MSG_DPERR_UNINITIALIZED",
-    36965,
-    "Initialisierungsfehler "
-  ],
-  [
-    "MSG_DLG_NEWGAME_DISABLE1",
-    36966,
-    "Keine gespeicherten Spiele"
-  ],
-  [
-    "MSG_DLG_NEWGAME_DISABLE2",
-    36967,
-    "zum Laden vorhanden"
-  ],
-  [
-    "MSG_DLG_DOWNTOWN",
-    40960,
-    "INNENSTADT"
-  ],
-  [
-    "MSG_DLG_EAST",
-    40961,
-    "OSTEN"
-  ],
-  [
-    "MSG_DLG_CRANIUM",
-    40962,
-    "CRANIUM"
-  ],
-  [
-    "MSG_DLG_PIT",
-    40963,
-    "GRUBE"
-  ],
-  [
-    "MSG_DLG_OF",
-    40964,
-    "DES"
-  ],
-  [
-    "MSG_DLG_DOOM",
-    40965,
-    "SCHRECKENS"
-  ],
-  [
-    "MSG_CREDITS_DEVELOPER",
-    41216,
-    "Entwickler"
-  ],
-  [
-    "MSG_CREDITS_SOFTWARE_TEAM",
-    41217,
-    "Software-Team"
-  ],
-  [
-    "MSG_CREDITS_ART_DIRECTOR",
-    41218,
-    "Art Director"
-  ],
-  [
-    "MSG_CREDITS_GAME_DESIGN",
-    41219,
-    "Spieldesign"
-  ],
-  [
-    "MSG_CREDITS_ART_DESIGN_TEAM",
-    41220,
-    "Art-Design-Team"
-  ],
-  [
-    "MSG_CREDITS_BUSINESS_DEVELOPMENT",
-    41221,
-    "Geschäftsentwicklung"
-  ],
-  [
-    "MSG_CREDITS_PUBLISHER",
-    41222,
-    "Publisher"
-  ],
-  [
-    "MSG_CREDITS_PRODUCTION",
-    41223,
-    "Produktion"
-  ],
-  [
-    "MSG_CREDITS_AUDIO",
-    41224,
-    "Audio"
-  ],
-  [
-    "MSG_CREDITS_MUSIC_COMPOSER",
-    41225,
-    "Original-Musik komponiert von"
-  ],
-  [
-    "MSG_CREDITS_VOICE_TALENT",
-    41226,
-    "Sprecher"
-  ],
-  [
-    "MSG_CREDITS_VIDEO_SEQUENCES",
-    41227,
-    "Filmsequenzen"
-  ],
-  [
-    "MSG_CREDITS_QA",
-    41228,
-    "Qualitätssicherung"
-  ],
-  [
-    "MSG_CREDITS_SPECIAL_THANKS",
-    41229,
-    "Besonderen Dank an"
-  ],
-  [
-    "MSG_PRESS_A_KEY",
-    41232,
-    "Gewünschte Taste auf der Tastatur drücken."
-  ],
-  [
-    "MSG_PRESS_A_JBTN",
-    41233,
-    "Gewünschte Joystick-Taste drücken."
-  ],
-  [
-    "MSG_PRESS_A_MBTN",
-    41234,
-    "Gewünschte Maustaste drücken."
-  ],
-  [
-    "MSG_MESSAGE",
-    41235,
-    "Nachricht"
-  ],
-  [
-    "MSG_ERR_OUTOFMEM",
-    41236,
-    "'Nicht genügend Speicher' - Machen Sie Festplattenplatz frei."
-  ],
-  [
-    "MSG_ERR_MEMERR",
-    41237,
-    "Schwerer Speicherfehler"
-  ],
-  [
-    "MSG_ACCELERATOR",
-    41238,
-    "Beschleunigung - %1 (%2)"
+{
+  "language_id": 1033,
+  "entries": [
+    [
+      "MSG_BACK",
+      1,
+      "Back"
+    ],
+    [
+      "MSG_NEW_GAME",
+      2,
+      "New Game"
+    ],
+    [
+      "MSG_GAME_NAME_VER",
+      3,
+      "RECOIL %1"
+    ],
+    [
+      "MSG_DEMO_NAME_VER",
+      4,
+      "RECOILDemo %1"
+    ],
+    [
+      "MSG_DEVICE",
+      5,
+      "Device: %1"
+    ],
+    [
+      "MSG_DRIVER",
+      6,
+      "Driver: %1"
+    ],
+    [
+      "MSG_INITIALIZING_NETWORK",
+      7,
+      "Initializing Network"
+    ],
+    [
+      "MSG_NUM_PLAYERS",
+      8,
+      "   %1!d! Players"
+    ],
+    [
+      "MSG_PLAYING_CD",
+      9,
+      "Playing CD"
+    ],
+    [
+      "MSG_DUMMY_FRAME",
+      10,
+      "Running Dummy Frame"
+    ],
+    [
+      "MSG_LETS_PLAY",
+      11,
+      "L e t' s  P l a y"
+    ],
+    [
+      "MSG_COMMAND",
+      12,
+      "Command"
+    ],
+    [
+      "MSG_KEYA",
+      13,
+      "KeyA"
+    ],
+    [
+      "MSG_KEYB",
+      14,
+      "KeyB"
+    ],
+    [
+      "MSG_JOYBTN",
+      15,
+      "JoyBtn"
+    ],
+    [
+      "MSG_MOUSEBTN",
+      16,
+      "MouseBtn"
+    ],
+    [
+      "MSG_PLAYER_NAME",
+      17,
+      "Your Name"
+    ],
+    [
+      "MSG_NETWORK_ERROR",
+      18,
+      "RECOIL Network Error"
+    ],
+    [
+      "MSG_ZSTEALTH",
+      19,
+      "UNUSED"
+    ],
+    [
+      "MSG_NEED_DX5",
+      20,
+      "RECOIL requires DirectX version 6 or higher"
+    ],
+    [
+      "MSG_GET_DX5_FROM_WEB",
+      21,
+      "Go to http://www.microsoft.com/directx/download.asp to download the latest version of DirectX."
+    ],
+    [
+      "MSG_GET_DX5_FROM_CD",
+      22,
+      "Reinstall from the CD-ROM to install DirectX on your system."
+    ],
+    [
+      "MSG_MUST_ENTER_NAME",
+      23,
+      "You must enter a name for yourself"
+    ],
+    [
+      "MSG_RECOIL_ERROR",
+      24,
+      "RECOIL Error"
+    ],
+    [
+      "MSG_MANUAL",
+      25,
+      "RECOIL Manual"
+    ],
+    [
+      "MSG_NETWORK_INDEX_FAILURE",
+      26,
+      "Failed To Get ID From Host%n%n-- Game Exiting --"
+    ],
+    [
+      "MSG_NETWORK_INDEX_TIMEOUT",
+      27,
+      "Get ID From Host Timeout%n%n---- Game Exiting ----"
+    ],
+    [
+      "MSG_NETWORK_TIMEOUT",
+      28,
+      "Network Timeout."
+    ],
+    [
+      "MSG_NETWORK_NO_WINNER_RESPONSE",
+      29,
+      "Lacking Winner Response%n%n---- Game Exiting ----"
+    ],
+    [
+      "MSG_DATABASE_CORRUPT",
+      30,
+      "Database is corrupted. Re-installation is recommended."
+    ],
+    [
+      "MSG_VIDEO_FAILURE",
+      31,
+      "Failed to initalize video device."
+    ],
+    [
+      "MSG_OUT_OF_MEM",
+      32,
+      "The system is out of memory or resources."
+    ],
+    [
+      "MSG_MANUAL_NEED_BROWSER",
+      33,
+      "A WWW Browser is required to read the manual."
+    ],
+    [
+      "MSG_MANUAL_NOT_FOUND",
+      34,
+      "Manual not found"
+    ],
+    [
+      "MSG_MANUAL_NO_DIR",
+      35,
+      "Manual directory not found."
+    ],
+    [
+      "MSG_BAD_EXE",
+      36,
+      "The associated browser is invalid (non-Win32 %.EXE or error in %.EXE image)."
+    ],
+    [
+      "MSG_NETWORK_WAITING_FOR_HOST",
+      37,
+      "Waiting For Host To Start Game"
+    ],
+    [
+      "MSG_NETWORK_WINSOCK_WARNING",
+      38,
+      "TCP/IP performs best when using Winsock 2.0 or higher.%nYou are running with Winsock %%d.%%d.%nYou may experience lag problems.%nSee the Read Me for more information.%nDo you wish to continue?"
+    ],
+    [
+      "MSG_NET_SESSION_LOST",
+      48,
+      "Network Session Has Been Lost!"
+    ],
+    [
+      "MSG_NET_WAIT_FOR_PLAYERS",
+      49,
+      "Wait For Players To Join The Race"
+    ],
+    [
+      "MSG_NET_HIT_SPACEBAR",
+      50,
+      "Hit Spacebar To Begin Race Countdown"
+    ],
+    [
+      "MSG_NET_WAITING_FOR_PLAYERS",
+      51,
+      "Waiting For Players To Join The Race"
+    ],
+    [
+      "MSG_NET_HOST_WILL_START",
+      52,
+      "Host Will Start Race Countdown"
+    ],
+    [
+      "MSG_NET_DIAL",
+      53,
+      "Dial"
+    ],
+    [
+      "MSG_NET_ANSWER",
+      54,
+      "Answer"
+    ],
+    [
+      "MSG_NET_PLAY",
+      55,
+      "Play"
+    ],
+    [
+      "MSG_NET_NEW_GAME",
+      56,
+      "New Game..."
+    ],
+    [
+      "MSG_NETWORK_WAIT_FOR_NEXT_SESSION",
+      57,
+      "Please Wait For Next Session To Start"
+    ],
+    [
+      "MSG_NETWORK_CLOSE_TO_ENDING",
+      64,
+      "This Session Is Close To Ending"
+    ],
+    [
+      "MSG_MEMORY_FAILURE",
+      128,
+      "Memory Allocation Failure"
+    ],
+    [
+      "MSG_MEMORY_DETAILS",
+      129,
+      "Unable to allocate the required amount of memory.%nFreeing some disk space on your main disk drive usually fixes this problem.%nThis program must Abort."
+    ],
+    [
+      "MSG_CANT_SAVE",
+      130,
+      "Save Game does not function while the BFT is being transported."
+    ],
+    [
+      "MSG_NEED_CD",
+      131,
+      "Please insert your RECOIL CD, then press OK."
+    ],
+    [
+      "MSG_NEED_DLL",
+      132,
+      "A required .DLL file, %1!s!, was not found."
+    ],
+    [
+      "MSG_CANT_SAVE_MP",
+      133,
+      "Save game feature not available in multiplayer."
+    ],
+    [
+      "MSG_CANT_LOAD_MP",
+      134,
+      "Load game feature not available in multiplayer."
+    ],
+    [
+      "MSG_CANT_LOAD",
+      135,
+      "Load Game does not function while the BFT is being transported."
+    ],
+    [
+      "MSG_SAVE_OVERWRITE_HDR",
+      136,
+      "RECOIL: Save Game"
+    ],
+    [
+      "MSG_SAVE_OVERWRITE_MSG",
+      137,
+      "Overwrite save game?"
+    ],
+    [
+      "MSG_DELETE_HDR",
+      138,
+      "RECOIL: Delete File"
+    ],
+    [
+      "MSG_DELETE_MSG",
+      139,
+      "Delete this game?"
+    ],
+    [
+      "MSG_SAVE_FAILED_MSG",
+      140,
+      "Save failed.  Try again?"
+    ],
+    [
+      "MSG_LOCKEDON",
+      256,
+      "Incoming Missiles!"
+    ],
+    [
+      "MSG_SCORE",
+      257,
+      "Score %1!d!"
+    ],
+    [
+      "MSG_PROC_DATABASE",
+      258,
+      "Processing GW database files"
+    ],
+    [
+      "MSG_TEXTURES",
+      259,
+      "Loading textures"
+    ],
+    [
+      "MSG_UPDATE_DATABASE",
+      260,
+      "Updating database"
+    ],
+    [
+      "MSG_DECLIENT",
+      261,
+      "Creating DEClient"
+    ],
+    [
+      "MSG_EFFECTS",
+      262,
+      "Creating effects"
+    ],
+    [
+      "MSG_DEMOLITIONS",
+      263,
+      "Creating demolitions"
+    ],
+    [
+      "MSG_ANIMATIONS",
+      264,
+      "Creating animations"
+    ],
+    [
+      "MSG_WEAPONS",
+      265,
+      "Creating weapons"
+    ],
+    [
+      "MSG_ENEMIES",
+      266,
+      "Creating enemies"
+    ],
+    [
+      "MSG_HUD",
+      267,
+      "Creating HUD"
+    ],
+    [
+      "MSG_CREATING_PLAYER",
+      268,
+      "Creating player"
+    ],
+    [
+      "MSG_OBJECTIVES",
+      269,
+      "Loading Mission Objectives"
+    ],
+    [
+      "MSG_SOUNDS",
+      270,
+      "Loading Sounds"
+    ],
+    [
+      "MSG_LOAD_NEXT_MISSION",
+      271,
+      "Loading Next Mission... Please Stand By..."
+    ],
+    [
+      "MSG_SIGNAL_LOST",
+      272,
+      "... Signal Lost ..."
+    ],
+    [
+      "MSG_SELECT_CONNECTION_TYPE",
+      273,
+      "< Select a connection type. >"
+    ],
+    [
+      "MSG_SESSION_COUNTS",
+      274,
+      "%1  (Max Player Count: %2!d!  Current: %3!d! )"
+    ],
+    [
+      "MSG_LAPS",
+      275,
+      "Laps"
+    ],
+    [
+      "MSG_KILLS",
+      276,
+      "Kills"
+    ],
+    [
+      "MSG_PLAYER",
+      277,
+      "Player"
+    ],
+    [
+      "MSG_REVIEW_LINE1",
+      278,
+      "Objectives Completed: %1!d! of %2!d!   Weapons Accuracy: %3!d!%%%%"
+    ],
+    [
+      "MSG_REVIEW_LINE2",
+      279,
+      "Enemies Killed: %1!d! of %2!d!        Weapons Found: %3!d! of %4!d!"
+    ],
+    [
+      "MSG_REVIEW_LINE3",
+      280,
+      "Mission Time %1!d!:%2!d!"
+    ],
+    [
+      "MSG_RPFG_A",
+      512,
+      "RFPG Ammo"
+    ],
+    [
+      "MSG_ERFPG_A",
+      515,
+      "ERFPG Power"
+    ],
+    [
+      "MSG_ERFPG_W",
+      516,
+      "ERFPG Weapon"
+    ],
+    [
+      "MSG_HE_MORTAR_A",
+      517,
+      "HE-Mortar Ammo"
+    ],
+    [
+      "MSG_HE_MORTAR_W",
+      518,
+      "HE-Mortar Weapon"
+    ],
+    [
+      "MSG_DIS_MORTAR_A",
+      519,
+      "Distortion Mortar Ammo"
+    ],
+    [
+      "MSG_DIS_MORTAR_W",
+      520,
+      "Distortion Mortar Weapon"
+    ],
+    [
+      "MSG_LO_MISSILE_A",
+      521,
+      "Lock On Missile Ammo"
+    ],
+    [
+      "MSG_LO_MISSILE_W",
+      522,
+      "Lock On Missile Weapon"
+    ],
+    [
+      "MSG_NAPALM_A",
+      523,
+      "Napalm Ammo"
+    ],
+    [
+      "MSG_NAPALM_W",
+      524,
+      "Napalm Weapon"
+    ],
+    [
+      "MSG_NANO",
+      525,
+      "Nano-Canister"
+    ],
+    [
+      "MSG_FREON_A",
+      526,
+      "Freon Ammo"
+    ],
+    [
+      "MSG_FREON_W",
+      527,
+      "Freon Weapon"
+    ],
+    [
+      "MSG_NANITE",
+      528,
+      "Nanite"
+    ],
+    [
+      "MSG_PHE_MINE_A",
+      545,
+      "Proximity HE-Mine Ammo"
+    ],
+    [
+      "MSG_PHE_MINE_W",
+      546,
+      "Proximity HE-Mine Weapon"
+    ],
+    [
+      "MSG_PDIS_MINE_A",
+      547,
+      "Proximity Distortion Mine Ammo"
+    ],
+    [
+      "MSG_PDIS_MINE_W",
+      548,
+      "Proximity Distortion Mine Weapon"
+    ],
+    [
+      "MSG_RHE_MINE_A",
+      549,
+      "Remote HE-Mine Ammo"
+    ],
+    [
+      "MSG_RHE_MINE_W",
+      550,
+      "Remote HE-Mine Weapon"
+    ],
+    [
+      "MSG_RDIS_MINE_A",
+      551,
+      "Remote Distortion Mine Ammo"
+    ],
+    [
+      "MSG_RDIS_MINE_W",
+      552,
+      "Remote Distortion Mine Weapon"
+    ],
+    [
+      "MSG_LO_LASER_A",
+      553,
+      "Laser Desingnator Ammo"
+    ],
+    [
+      "MSG_LO_LASER_W",
+      554,
+      "Laser Designator Weapon"
+    ],
+    [
+      "MSG_LASER_SABER_A",
+      555,
+      "Laser Sabre Ammo"
+    ],
+    [
+      "MSG_LASER_SABER_W",
+      556,
+      "Laser Sabre Weapon"
+    ],
+    [
+      "MSG_SONIC_A",
+      557,
+      "Sonic Cannon Ammo"
+    ],
+    [
+      "MSG_SONIC_W",
+      558,
+      "Sonic Cannon Weapon"
+    ],
+    [
+      "MSG_ARC_A",
+      559,
+      "Arc Sabre Ammo"
+    ],
+    [
+      "MSG_ARC_W",
+      560,
+      "Arc Sabre Weapon"
+    ],
+    [
+      "MSG_GM_A",
+      561,
+      "Guided Missile Ammo"
+    ],
+    [
+      "MSG_GM_W",
+      562,
+      "Guided Missile Weapon"
+    ],
+    [
+      "MSG_GN_A",
+      563,
+      "Guided Nuke Ammo"
+    ],
+    [
+      "MSG_GN_W",
+      564,
+      "Guided Nuke Weapon"
+    ],
+    [
+      "MSG_NUKE_A",
+      565,
+      "Practical Nuke Ammo"
+    ],
+    [
+      "MSG_NUKE_W",
+      566,
+      "Practical Nuke Weapon"
+    ],
+    [
+      "MSG_AMMO_LIMIT",
+      567,
+      "%1 at maximum"
+    ],
+    [
+      "MSG_TRANS_TRACKED",
+      568,
+      "Transforming to Tracked Vehicle"
+    ],
+    [
+      "MSG_TRANS_AMPHIB",
+      569,
+      "Transforming to Amphib Vehicle"
+    ],
+    [
+      "MSG_TRANS_HOVER",
+      570,
+      "Transforming to Hover Vehicle"
+    ],
+    [
+      "MSG_TRANS_SUB",
+      571,
+      "Transforming to Sub"
+    ],
+    [
+      "MSG_LOST_AMPHIB",
+      572,
+      "Amphib Technology Disabled"
+    ],
+    [
+      "MSG_EARN_AMPHIB",
+      573,
+      "Amphib Technology Enabled"
+    ],
+    [
+      "MSG_DEAD",
+      574,
+      "Battle Force Tank Destroyed"
+    ],
+    [
+      "MSG_AMMO_PICKUP",
+      575,
+      "1 Round Of %1"
+    ],
+    [
+      "MSG_AMMO_PICKUPS",
+      576,
+      "%1!d! Rounds Of %2"
+    ],
+    [
+      "MSG_AMPHIB_PICKUP",
+      577,
+      "Amphib Technology Enabled"
+    ],
+    [
+      "MSG_HOVER_PICKUP",
+      578,
+      "Hover Technology Enabled"
+    ],
+    [
+      "MSG_ALL_WEAPONS_PICKUP",
+      579,
+      "All Weapons Enabled"
+    ],
+    [
+      "MSG_MISSION",
+      580,
+      "MISSION %1!d!"
+    ],
+    [
+      "MSG_SUB_PICKUP",
+      581,
+      "Sub Technology Enabled"
+    ],
+    [
+      "MSG_NANO_USED",
+      582,
+      "Nano-Canister Used"
+    ],
+    [
+      "MSG_INVINCIBLE",
+      583,
+      "Battle Force Tank Invincible"
+    ],
+    [
+      "MSG_DETONATE_HE_MINE",
+      584,
+      "Remote HE-Mines Detonated: %1!d!"
+    ],
+    [
+      "MSG_DETONATE_DIS_MINE",
+      585,
+      "Remote Distortion Mines Detonated: %1!d!"
+    ],
+    [
+      "MSG_NANITE100",
+      586,
+      "Nanite 100"
+    ],
+    [
+      "MSG_WEAPON_INACTIVE",
+      587,
+      "%1!s! not operative in Sub Mode"
+    ],
+    [
+      "MSG_SUSTAINED_THROTTLE",
+      588,
+      "Sustained throttle enabled"
+    ],
+    [
+      "MSG_VARIABLE_THROTTLE",
+      589,
+      "Variable throttle enabled"
+    ],
+    [
+      "MSG_KILLED",
+      592,
+      "killed"
+    ],
+    [
+      "MSG_KILL_VERB_DEFEATED",
+      593,
+      "defeated"
+    ],
+    [
+      "MSG_KILL_VERB_BLASTED",
+      594,
+      "blasted"
+    ],
+    [
+      "MSG_KILL_VERB_DESTROYED",
+      595,
+      "destroyed"
+    ],
+    [
+      "MSG_KILL_VERB_LIQUIFIED",
+      596,
+      "liquified"
+    ],
+    [
+      "MSG_KILL_VERB_SHATTERED",
+      597,
+      "shattered"
+    ],
+    [
+      "MSG_KILL_VERB_TORCHED",
+      598,
+      "torched"
+    ],
+    [
+      "MSG_KILL_VERB_BLEW_APART",
+      599,
+      "blew apart"
+    ],
+    [
+      "MSG_KILL_VERB_ASSASSINATED",
+      600,
+      "assassinated"
+    ],
+    [
+      "MSG_KILL_VERB_CRUSHED",
+      601,
+      "crushed"
+    ],
+    [
+      "MSG_KILL_VERB_ELECTROCUTED",
+      602,
+      "electrocuted"
+    ],
+    [
+      "MSG_KILL_VERB_WIPED_OUT",
+      603,
+      "wiped out"
+    ],
+    [
+      "MSG_KILL_VERB_ANNIHILATED",
+      604,
+      "annihilated"
+    ],
+    [
+      "MSG_DESC_RFPG",
+      624,
+      "Rapid Fire Pulse Gun"
+    ],
+    [
+      "MSG_DESC_ERFPG",
+      625,
+      "Enhanced Rapid Fire Pulse Gun"
+    ],
+    [
+      "MSG_DESC_HEM",
+      626,
+      "High Explosive Mortar"
+    ],
+    [
+      "MSG_DESC_MDM",
+      627,
+      "Molecular Distortion Mortar"
+    ],
+    [
+      "MSG_DESC_FREON",
+      628,
+      "Freon Burst Cannon"
+    ],
+    [
+      "MSG_DESC_NAPALM",
+      629,
+      "Napalm Cannon"
+    ],
+    [
+      "MSG_DESC_P_HEM",
+      630,
+      "Proximity High Explosive Mine"
+    ],
+    [
+      "MSG_DESC_P_MDM",
+      631,
+      "Proximity Molecular Distortion Mine"
+    ],
+    [
+      "MSG_DESC_R_HEM",
+      632,
+      "Remote High Explosive Mine"
+    ],
+    [
+      "MSG_DESC_R_MDM",
+      633,
+      "Remote Molecular Distortion Mine"
+    ],
+    [
+      "MSG_DESC_LASERD",
+      634,
+      "Laser Designator"
+    ],
+    [
+      "MSG_DESC_LASER",
+      635,
+      "Laser Sabre"
+    ],
+    [
+      "MSG_DESC_SONIC",
+      636,
+      "Sonic Burst Cannon"
+    ],
+    [
+      "MSG_DESC_ARC_SABRE",
+      637,
+      "Arc Sabre"
+    ],
+    [
+      "MSG_DESC_LO_EM",
+      638,
+      "Lock On Explosive Missile"
+    ],
+    [
+      "MSG_DESC_TG_EM",
+      639,
+      "Tether Guided Explosive Missile"
+    ],
+    [
+      "MSG_DESC_LO_PM",
+      640,
+      "Lock On Practical Nuke"
+    ],
+    [
+      "MSG_DESC_TG_PN",
+      641,
+      "Tether Guided Practical Nuke"
+    ],
+    [
+      "MSG_DESC_SLOM",
+      642,
+      "Small Lock On Missile"
+    ],
+    [
+      "MSG_KEY_ESCAPE",
+      1024,
+      "ESCAPE"
+    ],
+    [
+      "MSG_KEY_1",
+      1025,
+      "1"
+    ],
+    [
+      "MSG_KEY_2",
+      1026,
+      "2"
+    ],
+    [
+      "MSG_KEY_3",
+      1027,
+      "3"
+    ],
+    [
+      "MSG_KEY_4",
+      1028,
+      "4"
+    ],
+    [
+      "MSG_KEY_5",
+      1029,
+      "5"
+    ],
+    [
+      "MSG_KEY_6",
+      1030,
+      "6"
+    ],
+    [
+      "MSG_KEY_7",
+      1031,
+      "7"
+    ],
+    [
+      "MSG_KEY_8",
+      1032,
+      "8"
+    ],
+    [
+      "MSG_KEY_9",
+      1033,
+      "9"
+    ],
+    [
+      "MSG_KEY_0",
+      1034,
+      "0"
+    ],
+    [
+      "MSG_KEY_MINUS",
+      1035,
+      "MINUS"
+    ],
+    [
+      "MSG_KEY_EQUALS",
+      1036,
+      "EQUALS"
+    ],
+    [
+      "MSG_KEY_BACK",
+      1037,
+      "BACK"
+    ],
+    [
+      "MSG_KEY_TAB",
+      1038,
+      "TAB"
+    ],
+    [
+      "MSG_KEY_LBRACKET",
+      1039,
+      "LBRACKET"
+    ],
+    [
+      "MSG_KEY_RBRACKET",
+      1040,
+      "RBRACKET"
+    ],
+    [
+      "MSG_KEY_RETURN",
+      1041,
+      "RETURN"
+    ],
+    [
+      "MSG_KEY_LCONTROL",
+      1042,
+      "LCONTROL"
+    ],
+    [
+      "MSG_KEY_SEMICOLON",
+      1043,
+      "SEMICOLON"
+    ],
+    [
+      "MSG_KEY_APOSTROPHE",
+      1044,
+      "APOSTROPHE"
+    ],
+    [
+      "MSG_KEY_GRAVE",
+      1045,
+      "GRAVE"
+    ],
+    [
+      "MSG_KEY_LSHIFT",
+      1046,
+      "LSHIFT"
+    ],
+    [
+      "MSG_KEY_BACKSLASH",
+      1047,
+      "BACKSLASH"
+    ],
+    [
+      "MSG_KEY_COMMA",
+      1048,
+      "COMMA"
+    ],
+    [
+      "MSG_KEY_PERIOD",
+      1049,
+      "PERIOD"
+    ],
+    [
+      "MSG_KEY_SLASH",
+      1050,
+      "SLASH"
+    ],
+    [
+      "MSG_KEY_RSHIFT",
+      1051,
+      "RSHIFT"
+    ],
+    [
+      "MSG_KEY_MULTIPLY",
+      1052,
+      "MULTIPLY"
+    ],
+    [
+      "MSG_KEY_LMENU",
+      1053,
+      "LMENU"
+    ],
+    [
+      "MSG_KEY_SPACE",
+      1054,
+      "SPACE"
+    ],
+    [
+      "MSG_KEY_CAPITAL",
+      1055,
+      "CAPITAL"
+    ],
+    [
+      "MSG_KEY_NUMLOCK",
+      1056,
+      "NUMLOCK"
+    ],
+    [
+      "MSG_KEY_SCROLL",
+      1057,
+      "SCROLL"
+    ],
+    [
+      "MSG_KEY_NUMPAD1",
+      1058,
+      "NUMPAD1"
+    ],
+    [
+      "MSG_KEY_NUMPAD2",
+      1059,
+      "NUMPAD2"
+    ],
+    [
+      "MSG_KEY_NUMPAD3",
+      1060,
+      "NUMPAD3"
+    ],
+    [
+      "MSG_KEY_NUMPAD4",
+      1061,
+      "NUMPAD4"
+    ],
+    [
+      "MSG_KEY_NUMPAD5",
+      1062,
+      "NUMPAD5"
+    ],
+    [
+      "MSG_KEY_NUMPAD6",
+      1063,
+      "NUMPAD6"
+    ],
+    [
+      "MSG_KEY_NUMPAD7",
+      1064,
+      "NUMPAD7"
+    ],
+    [
+      "MSG_KEY_NUMPAD8",
+      1065,
+      "NUMPAD8"
+    ],
+    [
+      "MSG_KEY_NUMPAD9",
+      1066,
+      "NUMPAD9"
+    ],
+    [
+      "MSG_KEY_NUMPAD0",
+      1067,
+      "NUMPAD0"
+    ],
+    [
+      "MSG_KEY_SUBTRACT",
+      1068,
+      "SUBTRACT"
+    ],
+    [
+      "MSG_KEY_ADD",
+      1069,
+      "ADD"
+    ],
+    [
+      "MSG_KEY_DECIMAL",
+      1070,
+      "DECIMAL"
+    ],
+    [
+      "MSG_KEY_F1",
+      1071,
+      "F1"
+    ],
+    [
+      "MSG_KEY_F2",
+      1072,
+      "F2"
+    ],
+    [
+      "MSG_KEY_F3",
+      1073,
+      "F3"
+    ],
+    [
+      "MSG_KEY_F4",
+      1074,
+      "F4"
+    ],
+    [
+      "MSG_KEY_F5",
+      1075,
+      "F5"
+    ],
+    [
+      "MSG_KEY_F6",
+      1076,
+      "F6"
+    ],
+    [
+      "MSG_KEY_F7",
+      1077,
+      "F7"
+    ],
+    [
+      "MSG_KEY_F8",
+      1078,
+      "F8"
+    ],
+    [
+      "MSG_KEY_F9",
+      1079,
+      "F9"
+    ],
+    [
+      "MSG_KEY_F10",
+      1080,
+      "F10"
+    ],
+    [
+      "MSG_KEY_F11",
+      1081,
+      "F11"
+    ],
+    [
+      "MSG_KEY_F12",
+      1082,
+      "F12"
+    ],
+    [
+      "MSG_KEY_F13",
+      1083,
+      "F13"
+    ],
+    [
+      "MSG_KEY_F14",
+      1084,
+      "F14"
+    ],
+    [
+      "MSG_KEY_F15",
+      1085,
+      "F15"
+    ],
+    [
+      "MSG_KEY_UP",
+      1086,
+      "UP"
+    ],
+    [
+      "MSG_KEY_DOWN",
+      1087,
+      "DOWN"
+    ],
+    [
+      "MSG_KEY_LEFT",
+      1088,
+      "LEFT"
+    ],
+    [
+      "MSG_KEY_RIGHT",
+      1089,
+      "RIGHT"
+    ],
+    [
+      "MSG_KEY_INSERT",
+      1090,
+      "INSERT"
+    ],
+    [
+      "MSG_KEY_DELETE",
+      1091,
+      "DELETE"
+    ],
+    [
+      "MSG_KEY_HOME",
+      1092,
+      "HOME"
+    ],
+    [
+      "MSG_KEY_PRIOR",
+      1093,
+      "PRIOR"
+    ],
+    [
+      "MSG_KEY_NEXT",
+      1094,
+      "NEXT"
+    ],
+    [
+      "MSG_KEY_END",
+      1095,
+      "END"
+    ],
+    [
+      "MSG_KEY_RCONTROL",
+      1096,
+      "RCONTROL"
+    ],
+    [
+      "MSG_KEY_DIVIDE",
+      1097,
+      "DIVIDE"
+    ],
+    [
+      "MSG_KEY_KANA",
+      1098,
+      "KANA"
+    ],
+    [
+      "MSG_KEY_CONVERT",
+      1099,
+      "CONVERT"
+    ],
+    [
+      "MSG_KEY_NOCONVERT",
+      1100,
+      "NOCONVERT"
+    ],
+    [
+      "MSG_KEY_YEN",
+      1101,
+      "YEN"
+    ],
+    [
+      "MSG_KEY_NUMPADEQUALS",
+      1102,
+      "NUMPADEQUALS"
+    ],
+    [
+      "MSG_KEY_CIRCUMFLEX",
+      1103,
+      "CIRCUMFLEX"
+    ],
+    [
+      "MSG_KEY_AT",
+      1104,
+      "AT"
+    ],
+    [
+      "MSG_KEY_COLON",
+      1105,
+      "COLON"
+    ],
+    [
+      "MSG_KEY_UNDERLINE",
+      1106,
+      "UNDERLINE"
+    ],
+    [
+      "MSG_KEY_KANJI",
+      1107,
+      "KANJI"
+    ],
+    [
+      "MSG_KEY_STOP",
+      1108,
+      "STOP"
+    ],
+    [
+      "MSG_KEY_AX",
+      1109,
+      "AX"
+    ],
+    [
+      "MSG_KEY_UNLABELED",
+      1110,
+      "UNLABELED"
+    ],
+    [
+      "MSG_KEY_NUMPADENTER",
+      1111,
+      "NUMPADENTER"
+    ],
+    [
+      "MSG_KEY_NUMPADCOMMA",
+      1112,
+      "NUMPADCOMMA"
+    ],
+    [
+      "MSG_KEY_SYSRQ",
+      1113,
+      "SYSRQ"
+    ],
+    [
+      "MSG_KEY_RMENU",
+      1114,
+      "RMENU"
+    ],
+    [
+      "MSG_KEY_LWIN",
+      1115,
+      "LWIN"
+    ],
+    [
+      "MSG_KEY_RWIN",
+      1116,
+      "RWIN"
+    ],
+    [
+      "MSG_KEY_APPS",
+      1117,
+      "APPS"
+    ],
+    [
+      "MSG_KEY_A",
+      1280,
+      "A"
+    ],
+    [
+      "MSG_KEY_B",
+      1281,
+      "B"
+    ],
+    [
+      "MSG_KEY_C",
+      1282,
+      "C"
+    ],
+    [
+      "MSG_KEY_D",
+      1283,
+      "D"
+    ],
+    [
+      "MSG_KEY_E",
+      1284,
+      "E"
+    ],
+    [
+      "MSG_KEY_F",
+      1285,
+      "F"
+    ],
+    [
+      "MSG_KEY_G",
+      1286,
+      "G"
+    ],
+    [
+      "MSG_KEY_H",
+      1287,
+      "H"
+    ],
+    [
+      "MSG_KEY_I",
+      1288,
+      "I"
+    ],
+    [
+      "MSG_KEY_J",
+      1289,
+      "J"
+    ],
+    [
+      "MSG_KEY_K",
+      1290,
+      "K"
+    ],
+    [
+      "MSG_KEY_L",
+      1291,
+      "L"
+    ],
+    [
+      "MSG_KEY_M",
+      1292,
+      "M"
+    ],
+    [
+      "MSG_KEY_N",
+      1293,
+      "N"
+    ],
+    [
+      "MSG_KEY_O",
+      1294,
+      "O"
+    ],
+    [
+      "MSG_KEY_P",
+      1295,
+      "P"
+    ],
+    [
+      "MSG_KEY_Q",
+      1296,
+      "Q"
+    ],
+    [
+      "MSG_KEY_R",
+      1297,
+      "R"
+    ],
+    [
+      "MSG_KEY_S",
+      1298,
+      "S"
+    ],
+    [
+      "MSG_KEY_T",
+      1299,
+      "T"
+    ],
+    [
+      "MSG_KEY_U",
+      1300,
+      "U"
+    ],
+    [
+      "MSG_KEY_V",
+      1301,
+      "V"
+    ],
+    [
+      "MSG_KEY_W",
+      1302,
+      "W"
+    ],
+    [
+      "MSG_KEY_X",
+      1303,
+      "X"
+    ],
+    [
+      "MSG_KEY_Y",
+      1304,
+      "Y"
+    ],
+    [
+      "MSG_KEY_Z",
+      1305,
+      "Z"
+    ],
+    [
+      "MSG_JBTN_1",
+      1537,
+      "Button 1"
+    ],
+    [
+      "MSG_JBTN_2",
+      1538,
+      "Button 2"
+    ],
+    [
+      "MSG_JBTN_3",
+      1539,
+      "Button 3"
+    ],
+    [
+      "MSG_JBTN_4",
+      1540,
+      "Button 4"
+    ],
+    [
+      "MSG_JBTN_5",
+      1541,
+      "Button 5"
+    ],
+    [
+      "MSG_JBTN_6",
+      1542,
+      "Button 6"
+    ],
+    [
+      "MSG_JBTN_7",
+      1543,
+      "Button 7"
+    ],
+    [
+      "MSG_JBTN_8",
+      1544,
+      "Button 8"
+    ],
+    [
+      "MSG_MBTN_LEFT",
+      1793,
+      "Left"
+    ],
+    [
+      "MSG_MBTN_RIGHT",
+      1794,
+      "Right"
+    ],
+    [
+      "MSG_MBTN_MIDDLE",
+      1795,
+      "Middle"
+    ],
+    [
+      "MSG_CMDSET_BFT_CONTROL",
+      1872,
+      "BFT Control"
+    ],
+    [
+      "MSG_CMDSET_WEAPONS",
+      1873,
+      "Weapon Control and Targeting"
+    ],
+    [
+      "MSG_CMDSET_DISPLAY_CONTROLS",
+      1874,
+      "Display Controls"
+    ],
+    [
+      "MSG_CMDSET_CAMPAIGN_CONTROLS",
+      1875,
+      "Campaign Specific Controls"
+    ],
+    [
+      "MSG_CMDSET_OTHER_CONTROLS",
+      1876,
+      "Other Controls"
+    ],
+    [
+      "MSG_CMDSET_DEVELOPMENT_AND_DEBUG",
+      1877,
+      "Development && Debug"
+    ],
+    [
+      "MSG_CMD_GO_BACKWARD",
+      2048,
+      "Back"
+    ],
+    [
+      "MSG_CMD_GO_BACKWARD_VERBOSE",
+      2049,
+      "Accelerate in the reverse direction."
+    ],
+    [
+      "MSG_CMD_TURN_LEFT",
+      2050,
+      "Left"
+    ],
+    [
+      "MSG_CMD_TURN_LEFT_VERBOSE",
+      2051,
+      "Turn the BFT left."
+    ],
+    [
+      "MSG_CMD_TURN_RIGHT",
+      2052,
+      "Right"
+    ],
+    [
+      "MSG_CMD_TURN_RIGHT_VERBOSE",
+      2053,
+      "Turn the BFT right."
+    ],
+    [
+      "MSG_CMD_GO_FORWARD",
+      2054,
+      "Forward"
+    ],
+    [
+      "MSG_CMD_GO_FORWARD_VERBOSE",
+      2055,
+      "Accelerate in the forward direction."
+    ],
+    [
+      "MSG_CMD_PITCH_UP",
+      2056,
+      "Pitch Up"
+    ],
+    [
+      "MSG_CMD_PITCH_UP_VERBOSE",
+      2057,
+      "Pitch vehicle up."
+    ],
+    [
+      "MSG_CMD_PITCH_DOWN",
+      2058,
+      "Pitch Down"
+    ],
+    [
+      "MSG_CMD_PITCH_DOWN_VERBOSE",
+      2059,
+      "Pitch vehicle down."
+    ],
+    [
+      "MSG_CMD_PITCH_CENTER",
+      2060,
+      "Zero Pitch"
+    ],
+    [
+      "MSG_CMD_PITCH_CENTER_VERBOSE",
+      2061,
+      "Return vehicle to level pitch."
+    ],
+    [
+      "MSG_CMD_GO_UP",
+      2062,
+      "Up"
+    ],
+    [
+      "MSG_CMD_GO_UP_VERBOSE",
+      2063,
+      "Bring Sub toward the surface."
+    ],
+    [
+      "MSG_CMD_GO_DOWN",
+      2064,
+      "Go Down"
+    ],
+    [
+      "MSG_CMD_GO_DOWN_VERBOSE",
+      2065,
+      "Dive deep with the Sub."
+    ],
+    [
+      "MSG_CMD_WEAPON1",
+      2066,
+      "Weapon 1"
+    ],
+    [
+      "MSG_CMD_WEAPON1_VERBOSE",
+      2067,
+      "Select/Toggle RFPG and ERFPG."
+    ],
+    [
+      "MSG_CMD_WEAPON2",
+      2068,
+      "Weapon 2"
+    ],
+    [
+      "MSG_CMD_WEAPON2_VERBOSE",
+      2069,
+      "Select/Toggle mortar weapons."
+    ],
+    [
+      "MSG_CMD_WEAPON3",
+      2070,
+      "Weapon 3"
+    ],
+    [
+      "MSG_CMD_WEAPON3_VERBOSE",
+      2071,
+      "Select/Toggle spray weapons."
+    ],
+    [
+      "MSG_CMD_WEAPON4",
+      2072,
+      "Weapon 4"
+    ],
+    [
+      "MSG_CMD_WEAPON4_VERBOSE",
+      2073,
+      "Select/Toggle proximity mine weapons."
+    ],
+    [
+      "MSG_CMD_WEAPON5",
+      2074,
+      "Weapon 5"
+    ],
+    [
+      "MSG_CMD_WEAPON5_VERBOSE",
+      2075,
+      "Select/Toggle remote mine weapons."
+    ],
+    [
+      "MSG_CMD_WEAPON6",
+      2076,
+      "Weapon 6"
+    ],
+    [
+      "MSG_CMD_WEAPON6_VERBOSE",
+      2077,
+      "Select/Toggle laser weapons."
+    ],
+    [
+      "MSG_CMD_WEAPON7",
+      2078,
+      "Weapon 7"
+    ],
+    [
+      "MSG_CMD_WEAPON7_VERBOSE",
+      2079,
+      "Select/Toggle disturb weapons."
+    ],
+    [
+      "MSG_CMD_WEAPON8",
+      2080,
+      "Weapon 8"
+    ],
+    [
+      "MSG_CMD_WEAPON8_VERBOSE",
+      2081,
+      "Select/Toggle missile weapons."
+    ],
+    [
+      "MSG_CMD_WEAPON9",
+      2082,
+      "Weapon 9"
+    ],
+    [
+      "MSG_CMD_WEAPON9_VERBOSE",
+      2083,
+      "Select/Toggle nuke weapons."
+    ],
+    [
+      "MSG_CMD_WEAPON0",
+      2084,
+      "Weapon 0"
+    ],
+    [
+      "MSG_CMD_WEAPON0_VERBOSE",
+      2085,
+      "Select/Toggle Weapon 0."
+    ],
+    [
+      "MSG_CMD_OBJECTIVE",
+      2086,
+      "Objective"
+    ],
+    [
+      "MSG_CMD_OBJECTIVE_VERBOSE",
+      2087,
+      "Open the current mission objective message."
+    ],
+    [
+      "MSG_CMD_HALT_AND_ZERO",
+      2088,
+      "Halt & Zero"
+    ],
+    [
+      "MSG_CMD_HALT_AND_ZERO_VERBOSE",
+      2089,
+      "Halt & Zero."
+    ],
+    [
+      "MSG_CMD_CENTER_CHECK",
+      2090,
+      "Center Check"
+    ],
+    [
+      "MSG_CMD_CENTER_CHECK_VERBOSE",
+      2091,
+      "Center the BFT turret to the direction of the chassis."
+    ],
+    [
+      "MSG_CMD_CENTER_TANK",
+      2092,
+      "Center Tank"
+    ],
+    [
+      "MSG_CMD_CENTER_TANK_VERBOSE",
+      2093,
+      "Center the chassis to the direction of the turret."
+    ],
+    [
+      "MSG_CMD_CRATER",
+      2094,
+      "Crater"
+    ],
+    [
+      "MSG_CMD_CRATER_VERBOSE",
+      2095,
+      "TEST Build Crater."
+    ],
+    [
+      "MSG_CMD_DITCH",
+      2096,
+      "Ditch"
+    ],
+    [
+      "MSG_CMD_DITCH_VERBOSE",
+      2097,
+      "TEST Build Ditch."
+    ],
+    [
+      "MSG_CMD_QSAND",
+      2098,
+      "Quicksand"
+    ],
+    [
+      "MSG_CMD_QSAND_VERBOSE",
+      2099,
+      "TEST Build Quicksand."
+    ],
+    [
+      "MSG_CMD_DBG_SOILS",
+      2100,
+      "Soils"
+    ],
+    [
+      "MSG_CMD_DBG_SOILS_VERBOSE",
+      2101,
+      "Color non default Soils YELLOW"
+    ],
+    [
+      "MSG_CMD_DBG_CANMODIFY",
+      2102,
+      "'CanModify'"
+    ],
+    [
+      "MSG_CMD_DBG_CANMODIFY_VERBOSE",
+      2103,
+      "Color 'CanModify' regions GREEN"
+    ],
+    [
+      "MSG_CMD_DBG_CLIPTO",
+      2104,
+      "'ClipTo'"
+    ],
+    [
+      "MSG_CMD_DBG_CLIPTO_VERBOSE",
+      2105,
+      "Color 'ClipTo' regions RED"
+    ],
+    [
+      "MSG_CMD_DBG_WORLD",
+      2106,
+      "'Large Objects'"
+    ],
+    [
+      "MSG_CMD_DBG_WORLD_VERBOSE",
+      2107,
+      "Color 'Large Objects' regions BLUE"
+    ],
+    [
+      "MSG_CMD_PERF_STATS",
+      2108,
+      "Stats"
+    ],
+    [
+      "MSG_CMD_PERF_STATS_VERBOSE",
+      2109,
+      "Performance Statistics"
+    ],
+    [
+      "MSG_CMD_POLY_REPORT",
+      2110,
+      "Poly Report"
+    ],
+    [
+      "MSG_CMD_POLY_REPORT_VERBOSE",
+      2111,
+      "Poly Report"
+    ],
+    [
+      "MSG_CMD_SINGLE_STEP",
+      2112,
+      "Single Step"
+    ],
+    [
+      "MSG_CMD_SINGLE_STEP_VERBOSE",
+      2113,
+      "Single Step"
+    ],
+    [
+      "MSG_CMD_CONTINUE",
+      2114,
+      "Continue"
+    ],
+    [
+      "MSG_CMD_CONTINUE_VERBSOE",
+      2115,
+      "Continue"
+    ],
+    [
+      "MSG_CMD_LIMIT_FRAME",
+      2116,
+      "Toggle Frame Time Clamping"
+    ],
+    [
+      "MSG_CMD_LIMIT_FRAME_VERBOSE",
+      2117,
+      "Toggle Frame Time Clamping"
+    ],
+    [
+      "MSG_CMD_INC_FRAME",
+      2118,
+      "Inc Frame Limit"
+    ],
+    [
+      "MSG_CMD_INC_FRAME_VERBSOE",
+      2119,
+      "Increment Frame Limit by 5Hz"
+    ],
+    [
+      "MSG_CMD_DEC_FRAME",
+      2120,
+      "Dec Frame Limit"
+    ],
+    [
+      "MSG_CMD_DEC_FRAME_VERBOSE",
+      2121,
+      "Decrement Frame Limit by 5Hz"
+    ],
+    [
+      "MSG_CMD_CAMERA_ATTACH",
+      2122,
+      "Attach next"
+    ],
+    [
+      "MSG_CMD_CAMERA_ATTACH_VERBOSE",
+      2123,
+      "Attach camera to next vehicle"
+    ],
+    [
+      "MSG_CMD_ATTACH_DIALOG",
+      2124,
+      "Attach camera dialog"
+    ],
+    [
+      "MSG_CMD_ATTACH_DIALOG_VERBOSE",
+      2125,
+      "Attach camera dialog"
+    ],
+    [
+      "MSG_CMD_CAM_TOGGLE",
+      2126,
+      "View"
+    ],
+    [
+      "MSG_CMD_CAM_TOGGLE_VERBOSE",
+      2127,
+      "Toggle first/third person perspective views."
+    ],
+    [
+      "MSG_CMD_GODSEYE_CAM",
+      2128,
+      "Overhead"
+    ],
+    [
+      "MSG_CMD_GODSEYE_CAM_VERBOSE",
+      2129,
+      "Select overhead view."
+    ],
+    [
+      "MSG_CMD_CAM_UP",
+      2130,
+      "Raise the camera position"
+    ],
+    [
+      "MSG_CMD_CAM_UP_VERBOSE",
+      2131,
+      "Raise the camera position."
+    ],
+    [
+      "MSG_CMD_CAM_DOWN",
+      2132,
+      "Lower the camera position"
+    ],
+    [
+      "MSG_CMD_CAM_DOWN_VERBOSE",
+      2133,
+      "Lower the camera position."
+    ],
+    [
+      "MSG_CMD_CAM_IN",
+      2134,
+      "Move the camera in"
+    ],
+    [
+      "MSG_CMD_CAM_IN_VERBOSE",
+      2135,
+      "Move the camera in."
+    ],
+    [
+      "MSG_CMD_CAM_OUT",
+      2136,
+      "Move the camera out"
+    ],
+    [
+      "MSG_CMD_CAM_OUT_VERBOSE",
+      2137,
+      "Move the camera out."
+    ],
+    [
+      "MSG_CMD_AIM_UP",
+      2138,
+      "Move the camera aim point up"
+    ],
+    [
+      "MSG_CMD_AIM_UP_VERBOSE",
+      2139,
+      "Move the camera aim point up."
+    ],
+    [
+      "MSG_CMD_AIM_DOWN",
+      2140,
+      "Move the camera aim point down"
+    ],
+    [
+      "MSG_CMD_AIM_DOWN_VERBOSE",
+      2141,
+      "Move the camera aim point down."
+    ],
+    [
+      "MSG_CMD_CAM_DIALOG",
+      2142,
+      "Bring up camera dialog box"
+    ],
+    [
+      "MSG_CMD_CAM_DIALOG_VERBOSE",
+      2143,
+      "Bring up camera dialog box."
+    ],
+    [
+      "MSG_CMD_MISC_TEST",
+      2144,
+      "Do whatever is under test"
+    ],
+    [
+      "MSG_CMD_MISC_TEST_VERBOSE",
+      2145,
+      "Do whatever is under test"
+    ],
+    [
+      "MSG_CMD_MARKER",
+      2146,
+      "Write location info to a file"
+    ],
+    [
+      "MSG_CMD_MARKER_VERBOSE",
+      2147,
+      "Write location info to a file"
+    ],
+    [
+      "MSG_CMD_MAPDISPLAY",
+      2148,
+      "Map"
+    ],
+    [
+      "MSG_CMD_MAPDISPLAY_VERBOSE",
+      2149,
+      "Bring up the area map."
+    ],
+    [
+      "MSG_CMD_MAPZOOMIN",
+      2150,
+      "Zoom In"
+    ],
+    [
+      "MSG_CMD_MAPZOOMIN_VERBOSE",
+      2151,
+      "Decrease scale of mission map."
+    ],
+    [
+      "MSG_CMD_MAPZOOMOUT",
+      2152,
+      "Zoom Out"
+    ],
+    [
+      "MSG_CMD_MAPZOOMOUT_VERBOSE",
+      2153,
+      "Increase scale of mission map."
+    ],
+    [
+      "MSG_CMD_MAPGOTO",
+      2154,
+      "Goto Point on Map"
+    ],
+    [
+      "MSG_CMD_MAPGOTO_VERBOSE",
+      2155,
+      "Goto point on map."
+    ],
+    [
+      "MSG_CMD_NANITE",
+      2156,
+      "Apply Nanite"
+    ],
+    [
+      "MSG_CMD_NANITE_VERBOSE",
+      2157,
+      "Apply nanite."
+    ],
+    [
+      "MSG_CMD_TELEPORT",
+      2158,
+      "Teleport"
+    ],
+    [
+      "MSG_CMD_TELEPORT_VERBOSE",
+      2159,
+      "Teleport"
+    ],
+    [
+      "MSG_CMD_AMPHIB_PICKUP",
+      2160,
+      "Toggle on/off Amphib Pickup"
+    ],
+    [
+      "MSG_CMD_AMPHIB_PICKUP_VERBOSE",
+      2161,
+      "Toggle on/off Amphib Pickup."
+    ],
+    [
+      "MSG_CMD_CAMERA_CURSOR",
+      2162,
+      "Turret Lock"
+    ],
+    [
+      "MSG_CMD_CAMERA_CURSOR_VERBOSE",
+      2163,
+      "Lock/Unlock turret movement restrictions."
+    ],
+    [
+      "MSG_CMD_TRACK_MODE",
+      2164,
+      "Track"
+    ],
+    [
+      "MSG_CMD_TRACK_MODE_VERBOSE",
+      2165,
+      "Switch to Track mode."
+    ],
+    [
+      "MSG_CMD_AMPHIB_MODE",
+      2166,
+      "Amphib"
+    ],
+    [
+      "MSG_CMD_AMPHIB_MODE_VERBOSE",
+      2167,
+      "Switch to Amphib mode (if available)."
+    ],
+    [
+      "MSG_CMD_HOVER_MODE",
+      2168,
+      "Hover"
+    ],
+    [
+      "MSG_CMD_HOVER_MODE_VERBOSE",
+      2169,
+      "Switch to Hover mode (if available)."
+    ],
+    [
+      "MSG_CMD_SUB_MODE",
+      2170,
+      "Sub"
+    ],
+    [
+      "MSG_CMD_SUB_MODE_VERBOSE",
+      2171,
+      "Switch to Sub mode (if available)."
+    ],
+    [
+      "MSG_CMD_FLY_MODE",
+      2172,
+      "Use Fly Mode"
+    ],
+    [
+      "MSG_CMD_FLY_MODE_VERBOSE",
+      2173,
+      "Use Fly Mode."
+    ],
+    [
+      "MSG_CMD_MIP_TOGGLE",
+      2174,
+      "Toggle on/off MIP mapping."
+    ],
+    [
+      "MSG_CMD_ZONE_TOGGLE",
+      2176,
+      "Toggle on/off zone switching."
+    ],
+    [
+      "MSG_CMD_ZONE_TOGGLE_VERBOSE",
+      2177,
+      "Toggle on/off zone switching."
+    ],
+    [
+      "MSG_CMD_COLLISION_TOGGLE",
+      2178,
+      "Collision Toggle"
+    ],
+    [
+      "MSG_CMD_COLLISION_TOGGLE_VERBOSE",
+      2179,
+      "Collision Toggle."
+    ],
+    [
+      "MSG_CMD_SHRINK_WINDOW",
+      2180,
+      "Shrink Display Window"
+    ],
+    [
+      "MSG_CMD_SHRINK_WINDOW_VERBOSE",
+      2181,
+      "Shrink Display Window."
+    ],
+    [
+      "MSG_CMD_GROW_WINDOW",
+      2182,
+      "Grow Display Window"
+    ],
+    [
+      "MSG_CMD_GROW_WINDOW_VERBOSE",
+      2183,
+      "Grow Display Window."
+    ],
+    [
+      "MSG_CMD_HUD_TOGGLE",
+      2184,
+      "HUD"
+    ],
+    [
+      "MSG_CMD_HUD_TOGGLE_VERBOSE",
+      2185,
+      "Toggle on/off HUD display."
+    ],
+    [
+      "MSG_CMD_CHEAT_CODE",
+      2186,
+      "Cheat"
+    ],
+    [
+      "MSG_CMD_CHEAT_CODE_VERBOSE",
+      2187,
+      "Call up the cheat code entry interface."
+    ],
+    [
+      "MSG_CMD_TRIGGER1",
+      2188,
+      "Trigger 1"
+    ],
+    [
+      "MSG_CMD_TRIGGER1_VERBOSE",
+      2189,
+      "Fire pulse guns."
+    ],
+    [
+      "MSG_CMD_TRIGGER2",
+      2190,
+      "Trigger 2"
+    ],
+    [
+      "MSG_CMD_TRIGGER2_VERBOSE",
+      2191,
+      "Fire selected advanced weapon."
+    ],
+    [
+      "MSG_CMD_EDITGAME",
+      2192,
+      "Edit Game"
+    ],
+    [
+      "MSG_CMD_EDITGAME_VERBOSE",
+      2193,
+      "Edit Game."
+    ],
+    [
+      "MSG_CMD_EDITFIRE",
+      2194,
+      "Game Edit Designator"
+    ],
+    [
+      "MSG_CMD_EDITFIRE_VERBOSE",
+      2195,
+      "Game Edit Designator."
+    ],
+    [
+      "MSG_CMD_EDITUP",
+      2196,
+      "Game Edit Control"
+    ],
+    [
+      "MSG_CMD_EDITUP_VERBOSE",
+      2197,
+      "Game Edit Control"
+    ],
+    [
+      "MSG_CMD_POLY_AREA_UP",
+      2198,
+      "Increase poly rejection area"
+    ],
+    [
+      "MSG_CMD_POLY_AREA_UP_VERBOSE",
+      2199,
+      "Increase poly rejection area"
+    ],
+    [
+      "MSG_CMD_POLY_AREA_DOWN",
+      2200,
+      "Decrease poly rejection area"
+    ],
+    [
+      "MSG_CMD_POLY_AREA_DOWN_VERBOSE",
+      2201,
+      "Decrease poly rejection area."
+    ],
+    [
+      "MSG_CMD_VEH_SND_PITCH_UP",
+      2202,
+      "Increase vehicle dynamic pitch"
+    ],
+    [
+      "MSG_CMD_VEH_SND_PITCH_UP_VERBOSE",
+      2203,
+      "Increase vehicle dynamic pitch."
+    ],
+    [
+      "MSG_CMD_VEH_SND_PITCH_DOWN",
+      2204,
+      "Decrease vehicle dynamic pitch"
+    ],
+    [
+      "MSG_CMD_VEH_SND_PITCH_DOWN_VERBOSE",
+      2205,
+      "Decrease vehicle dynamic pitch."
+    ],
+    [
+      "MSG_CMD_SND_VOL_UP",
+      2206,
+      "Increase vehicle dynamic volume"
+    ],
+    [
+      "MSG_CMD_SND_VOL_UP_VERBOSE",
+      2207,
+      "Increase vehicle dynamic volume."
+    ],
+    [
+      "MSG_CMD_SND_VOL_DOWN",
+      2208,
+      "Decrease vehicle dynamic volume"
+    ],
+    [
+      "MSG_CMD_SND_VOL_DOWN_VERBOSE",
+      2209,
+      "Decrease vehicle dynamic volume."
+    ],
+    [
+      "MSG_CMD_RANGETO",
+      2210,
+      "Range to target"
+    ],
+    [
+      "MSG_CMD_RANGETO_VERBOSE",
+      2211,
+      "Range to target."
+    ],
+    [
+      "MSG_CMD_REVIEW",
+      2212,
+      "Review"
+    ],
+    [
+      "MSG_CMD_REVIEW_VERBOSE",
+      2213,
+      "Open the most recent mission review data."
+    ],
+    [
+      "MSG_CMD_COCKPIT_TOGGLE",
+      2214,
+      "Cockpit"
+    ],
+    [
+      "MSG_CMD_COCKPIT_TOGGLE_VERBOSE",
+      2215,
+      "Toggle on/off cockpit framing."
+    ],
+    [
+      "MSG_CMD_VIDEOMODE_TOGGLE",
+      2216,
+      "Resolution"
+    ],
+    [
+      "MSG_CMD_VIDEOMODE_TOGGLE_VERBOSE",
+      2217,
+      "Toggle video resolution (software only)."
+    ],
+    [
+      "MSG_CMD_MMX_TOGGLE",
+      2218,
+      "Toggle MMX Mode"
+    ],
+    [
+      "MSG_CMD_MMX_TOGGLE_VERBOSE",
+      2219,
+      "Toggle MMX Mode."
+    ],
+    [
+      "MSG_CMD_CAPTURE_BMP",
+      2220,
+      "Capture Screen and save as BMP"
+    ],
+    [
+      "MSG_CMD_CAPTURE_BMP_VERBOSE",
+      2221,
+      "Capture screen and save as BMP."
+    ],
+    [
+      "MSG_CMD_TOGGLE_SNOW",
+      2222,
+      "Toggle Snow Effect"
+    ],
+    [
+      "MSG_CMD_TOGGLE_SNOW_VERBOSE",
+      2223,
+      "Toggle Snow Effect."
+    ],
+    [
+      "MSG_CMD_TOGGLE_SPRITE_RENDER",
+      2224,
+      "Toggle sprite rendering"
+    ],
+    [
+      "MSG_CMD_TOGGLE_SPRITE_RENDER_VERBOSE",
+      2225,
+      "Toggle sprite rendering."
+    ],
+    [
+      "MSG_CMD_TOGGLE_SPRITE_FLASH",
+      2226,
+      "Toggle sprite render flash"
+    ],
+    [
+      "MSG_CMD_TOGGLE_SPRITE_FLASH_VERBOSE",
+      2227,
+      "Toggle sprite render flash."
+    ],
+    [
+      "MSG_CMD_LOAD_GAME",
+      2228,
+      "Load"
+    ],
+    [
+      "MSG_CMD_LOAD_GAME_VERBOSE",
+      2229,
+      "Load saved game."
+    ],
+    [
+      "MSG_CMD_SAVE_GAME",
+      2230,
+      "Save"
+    ],
+    [
+      "MSG_CMD_SAVE_GAME_VERBOSE",
+      2231,
+      "Save current progress."
+    ],
+    [
+      "MSG_CMD_DETONATE",
+      2232,
+      "Detonate"
+    ],
+    [
+      "MSG_CMD_DETONATE_VERBOSE",
+      2233,
+      "Detonate remote mines."
+    ],
+    [
+      "MSG_CMD_MODEL_VANISH",
+      2234,
+      "Model Vanish"
+    ],
+    [
+      "MSG_CMD_MODEL_VANISH_VERBOSE",
+      2235,
+      "Model Vanish."
+    ],
+    [
+      "MSG_CMD_TAUNT",
+      2236,
+      "Taunt"
+    ],
+    [
+      "MSG_CMD_TAUNT_VERBOSE",
+      2237,
+      "Bring up the multi-player taunt message window. "
+    ],
+    [
+      "MSG_CMD_WIREFRAME",
+      2238,
+      "Wire frame"
+    ],
+    [
+      "MSG_CMD_WIREFRAME_VERBOSE",
+      2239,
+      "Wire frame."
+    ],
+    [
+      "MSG_CMD_CONSOLE",
+      2240,
+      "Display Interpreter console"
+    ],
+    [
+      "MSG_CMD_CONSOLE_VERBOSE",
+      2241,
+      "Display Interpreter console."
+    ],
+    [
+      "MSG_CMD_CAMERA_PUSH",
+      2242,
+      "Camera Push"
+    ],
+    [
+      "MSG_CMD_CAMERA_PUSH_VERBOSE",
+      2243,
+      "Toggle on/off cursor steering feature."
+    ],
+    [
+      "MSG_CMD_WEAPON",
+      2244,
+      "Weapon"
+    ],
+    [
+      "MSG_CMD_WEAPON_VERBOSE",
+      2245,
+      "Display capabilities of active advanced weapon."
+    ],
+    [
+      "MSG_CMD_THROT_MODE",
+      2246,
+      "Throttle"
+    ],
+    [
+      "MSG_CMD_THROT_MODE_VERBOSE",
+      2247,
+      "Toggle variable/sustained throttle. "
+    ],
+    [
+      "MSG_PUBLISHER_NAME",
+      2304,
+      "Zipper"
+    ],
+    [
+      "MSG_GAME_NAME",
+      2305,
+      "RECOIL"
+    ],
+    [
+      "MSG_SHIELDS_AT_MAX",
+      2306,
+      "Shields at full strength"
+    ],
+    [
+      "MSG_SHIELD_INCREASE",
+      2307,
+      "Shields up %1!d! percent"
+    ],
+    [
+      "MSG_TRANSMIT",
+      2308,
+      "Transmitting"
+    ],
+    [
+      "MSG_TRANSMIT_HALT",
+      2309,
+      "...transmission halted..."
+    ],
+    [
+      "MSG_INCOMING",
+      2310,
+      "Incoming transmission - Press O key"
+    ],
+    [
+      "MSG_DEMO_GAME_NAME",
+      2311,
+      "RECOILDemo"
+    ],
+    [
+      "MSG_LOCK_ON",
+      2312,
+      "You've been LOCKED ON !"
+    ],
+    [
+      "MSG_CANT_SWIM",
+      2313,
+      "Your Vehicle Is Not Equipped for Water!"
+    ],
+    [
+      "MSG_TOO_HOT",
+      2320,
+      "Your Vehicle Is Not Equipped for This Heat!"
+    ],
+    [
+      "MSG_CREATE_ENTITY_FAILED",
+      2321,
+      "Failed to create Entity"
+    ],
+    [
+      "MSG_CREATE_ENTITY",
+      2322,
+      "Creating New Entity"
+    ],
+    [
+      "MSG_LEFT_GAME",
+      2323,
+      "Chickenfeed %1 left the game!"
+    ],
+    [
+      "MSG_60_SECS_TO_GO",
+      2324,
+      "60 Seconds To Go!"
+    ],
+    [
+      "MSG_GAME_OVER",
+      2325,
+      "Game Over!"
+    ],
+    [
+      "MSG_NOT_ONBOARD",
+      2326,
+      "Not Onboard"
+    ],
+    [
+      "MSG_NO_AMMO",
+      2327,
+      "No Ammo"
+    ],
+    [
+      "MSG_ONE_LAP_TO_GO",
+      2328,
+      "%1 has 1 lap to go!"
+    ],
+    [
+      "MSG_M1_O1_SUMMARY",
+      2560,
+      "M1: Operation Short Circuit"
+    ],
+    [
+      "MSG_M1_O1_OBJ",
+      2561,
+      "The force field above the beach blocks access to the enemy base at the top of the hill. Find the force field power control and blast it to bits."
+    ],
+    [
+      "MSG_M1_O1_COMP",
+      2562,
+      "M1: Passage Clear"
+    ],
+    [
+      "MSG_M1_O2_SUMMARY",
+      2563,
+      "M2: Missile Control"
+    ],
+    [
+      "MSG_M1_O2_OBJ",
+      2564,
+      "The Base's Command Post is connected to a series of SAM sites. By destroying those connections, you can expose the Command Post core. Hit the core hard."
+    ],
+    [
+      "MSG_M1_O2_COMP",
+      2565,
+      "M2: Missile Control Destroyed"
+    ],
+    [
+      "MSG_M1_O3_SUMMARY",
+      2566,
+      "M3: Destroy Rocket Sites"
+    ],
+    [
+      "MSG_M1_O3_OBJ",
+      2567,
+      "Fight off the forces that protect the rocket silos. Then, target the control panels before the rockets launch. Your efforts will keep the resistance alive."
+    ],
+    [
+      "MSG_M1_O3_COMP",
+      2568,
+      "M3: Rocket Sites Destroyed"
+    ],
+    [
+      "MSG_M1_O4_SUMMARY",
+      2569,
+      "M4: Go to Landing Site"
+    ],
+    [
+      "MSG_M1_O4_OBJ",
+      2570,
+      "Move on to the VTOL landing pad and guide the BFT into the cargo hold. The aircraft will transport you to the next campaign."
+    ],
+    [
+      "MSG_M1_O4_COMP",
+      2571,
+      "M4: VTOL Pickup"
+    ],
+    [
+      "MSG_M2_O1_SUMMARY",
+      2816,
+      "M1: Retrieve Stolen Technology"
+    ],
+    [
+      "MSG_M2_O1_OBJ",
+      2817,
+      "Break into the Network lab. Fight off the security and refit the BFT with new technology. Then, you can reach enemy operations on the other side of the canyon."
+    ],
+    [
+      "MSG_M2_O1_COMP",
+      2818,
+      "M1: Technology Retrieved"
+    ],
+    [
+      "MSG_M2_O2_SUMMARY",
+      2819,
+      "M2: Destroy Power Plant"
+    ],
+    [
+      "MSG_M2_O2_OBJ",
+      2820,
+      "The best way to weaken enemy forces is to destroy the main power supply. Blast through the Power Plant complex, then obliterate the core."
+    ],
+    [
+      "MSG_M2_O2_COMP",
+      2821,
+      "M2: Power Plant Destroyed"
+    ],
+    [
+      "MSG_M2_O3_SUMMARY",
+      2822,
+      "M3: Destroy Mining Operation"
+    ],
+    [
+      "MSG_M2_O3_OBJ",
+      2823,
+      "Machines extract ore for weapon production from the mine pit. By destroying the digging devices in the pit, you'll be closer to drowning out the Network's efforts."
+    ],
+    [
+      "MSG_M2_O3_COMP",
+      2824,
+      "M3: Mining Operation Destroyed"
+    ],
+    [
+      "MSG_M2_O4_SUMMARY",
+      2825,
+      "M4: Destroy Steel Processor"
+    ],
+    [
+      "MSG_M2_O4_OBJ",
+      2826,
+      "The foundry is the heart of the Network's weapon production operation. Bust through its defenses and break it down with a barrage of BFT firepower!"
+    ],
+    [
+      "MSG_M2_O4_COMP",
+      2827,
+      "M4: Foundry Destroyed"
+    ],
+    [
+      "MSG_M2_O5_SUMMARY",
+      2828,
+      "M5: Proceed To Helipad"
+    ],
+    [
+      "MSG_M2_O5_OBJ",
+      2829,
+      "A VTOL is on the way. Proceed to helipad for transport to the next area. If you've hit the bridge switch in the foundry, you'll be able to cross over to the pick up area."
+    ],
+    [
+      "MSG_M2_O5_COMP",
+      2830,
+      "M5: Helipad Pickup"
+    ],
+    [
+      "MSG_M3_O1_SUMMARY",
+      3072,
+      "M1: Enter TNT Grounds"
+    ],
+    [
+      "MSG_M3_O1_OBJ",
+      3073,
+      "The volcano is in a huge crater that is protected by Network forces. Your first mission is to fight off the complex's exterior defenses and enter the main crater."
+    ],
+    [
+      "MSG_M3_O1_COMP",
+      3074,
+      "M1: Entered TNT Grounds"
+    ],
+    [
+      "MSG_M3_O2_SUMMARY",
+      3075,
+      "M2: Cut off the Flow"
+    ],
+    [
+      "MSG_M3_O2_OBJ",
+      3076,
+      "A Lava pool blocks the bridge near two large craters. By destroying the pumps that fill the pool, you can drain the lava and clear the way."
+    ],
+    [
+      "MSG_M3_O2_COMP",
+      3077,
+      "M2: Bridge Cleared"
+    ],
+    [
+      "MSG_M3_O3_SUMMARY",
+      3078,
+      "M3: Acquire Hover Technology"
+    ],
+    [
+      "MSG_M3_O3_OBJ",
+      3079,
+      "Make your way to the hovertank plant east of the volcano and put the BFT on the production line. Once you have the technology, you can sail smoothly to the volcano."
+    ],
+    [
+      "MSG_M3_O3_COMP",
+      3080,
+      "M3: Hover Technology Acquired"
+    ],
+    [
+      "MSG_M3_O4_SUMMARY",
+      3081,
+      "M4: Enter Volcano Core"
+    ],
+    [
+      "MSG_M3_O4_OBJ",
+      3082,
+      "Cross the lava to the volcano entrance and destroy the forces that block the entrance tunnel. Then, enter the volcano and keep blasting."
+    ],
+    [
+      "MSG_M3_O4_COMP",
+      3083,
+      "M4: Entered Volcano Core"
+    ],
+    [
+      "MSG_M3_O5_SUMMARY",
+      3084,
+      "M5: Destroy TNT Beam"
+    ],
+    [
+      "MSG_M3_O5_OBJ",
+      3085,
+      "The TNT Beam is in the volcano crater. Fight your way to the top. Then, target the beam. Its weak point is in the center. Avoid the lasers and attack."
+    ],
+    [
+      "MSG_M3_O5_COMP",
+      3086,
+      "M5: TNT Beam Destroyed"
+    ],
+    [
+      "MSG_M3_O6_SUMMARY",
+      3087,
+      "M6: Go To VTOL Pickup"
+    ],
+    [
+      "MSG_M3_O6_OBJ",
+      3088,
+      "Get to the VTOL pad before the entire complex is swimming in lava!"
+    ],
+    [
+      "MSG_M3_O6_COMP",
+      3089,
+      "M6: VTOL Pickup"
+    ],
+    [
+      "MSG_M4_O1_SUMMARY",
+      3328,
+      "M1: Break the Dam"
+    ],
+    [
+      "MSG_M4_O1_OBJ",
+      3329,
+      "The machines are making chemical weapons. The first step is to cut off their water supply. Destroy the flood gates of the main dam and let the water flow."
+    ],
+    [
+      "MSG_M4_O1_COMP",
+      3330,
+      "M1: Dam Broken"
+    ],
+    [
+      "MSG_M4_O2_SUMMARY",
+      3331,
+      "M2: Destroy the Factory"
+    ],
+    [
+      "MSG_M4_O2_OBJ",
+      3332,
+      "The missile construction facility provides lift for the machine's chemical weapons. Take it out before the missiles are complete."
+    ],
+    [
+      "MSG_M4_O2_COMP",
+      3333,
+      "M2: Missile Factory Destroyed"
+    ],
+    [
+      "MSG_M4_O3_SUMMARY",
+      3334,
+      "M3: Hit the Chemical Plant"
+    ],
+    [
+      "MSG_M4_O3_OBJ",
+      3335,
+      "The chemical production plant is volatile. With the right firepower, in the right places, you can bury it for good."
+    ],
+    [
+      "MSG_M4_O3_COMP",
+      3336,
+      "M3: Chemical Plant Destroyed"
+    ],
+    [
+      "MSG_M4_O4_SUMMARY",
+      3337,
+      "M4: Find a Secret Weapon"
+    ],
+    [
+      "MSG_M4_O4_OBJ",
+      3338,
+      "Reports show that the machines are constructing a secret weapon under the courtyard ruins. Find it and put an end to this new threat. "
+    ],
+    [
+      "MSG_M4_O4_COMP",
+      3339,
+      "M4: Weapon Destroyed"
+    ],
+    [
+      "MSG_M4_O5_SUMMARY",
+      3340,
+      "M5: Go to VTOL Pickup "
+    ],
+    [
+      "MSG_M4_O5_OBJ",
+      3341,
+      "Now that the chemical threat is over, you can make your escape. Go to the VTOL landing site for pickup."
+    ],
+    [
+      "MSG_M4_O5_COMP",
+      3342,
+      "M5: VTOL Pickup"
+    ],
+    [
+      "MSG_M4_O6_SUMMARY",
+      3343,
+      "Not Used"
+    ],
+    [
+      "MSG_M4_O6_OBJ",
+      3344,
+      "Not Used"
+    ],
+    [
+      "MSG_M4_O6_COMP",
+      3345,
+      "Not Used"
+    ],
+    [
+      "MSG_M5_O1_SUMMARY",
+      3584,
+      "M1: Break the Ice"
+    ],
+    [
+      "MSG_M5_O1_OBJ",
+      3585,
+      "Access to enemy operations under the ice is blocked by a communications center. Knock out the enemy installation, then make your way under the icy surface."
+    ],
+    [
+      "MSG_M5_O1_COMP",
+      3586,
+      "M1: Underground Access Achieved"
+    ],
+    [
+      "MSG_M5_O2_SUMMARY",
+      3587,
+      "M2: Stop Clone Shipment"
+    ],
+    [
+      "MSG_M5_O2_OBJ",
+      3588,
+      "A new batch is about to be shipped to the network's clone city. Work your way to the shipping entrance of the facility and destroy the clones."
+    ],
+    [
+      "MSG_M5_O2_COMP",
+      3589,
+      "M2: Clone shipment Destroyed"
+    ],
+    [
+      "MSG_M5_O3_SUMMARY",
+      3590,
+      "M3: Get Sub Technology"
+    ],
+    [
+      "MSG_M5_O3_OBJ",
+      3591,
+      "Enemy operations are largely underwater. Go to the sub production facility and refit the BFT so that you can dive deep and destroy the underwater installations."
+    ],
+    [
+      "MSG_M5_O3_COMP",
+      3592,
+      "M3: Received Sub Technology"
+    ],
+    [
+      "MSG_M5_O4_SUMMARY",
+      3593,
+      "M4: Destroy the Power Plant"
+    ],
+    [
+      "MSG_M5_O4_OBJ",
+      3594,
+      "The machines get energy by extracting heat from the ocean floor. Dive down and place remote mines in the geo-thermal power plant's vents."
+    ],
+    [
+      "MSG_M5_O4_COMP",
+      3595,
+      "M4: Power Plant Destroyed"
+    ],
+    [
+      "MSG_M5_O5_SUMMARY",
+      3596,
+      "M5: Destroy Clone Operation"
+    ],
+    [
+      "MSG_M5_O5_OBJ",
+      3597,
+      "The way to enter the manufacturing plant is through underwater tunnels. Dive deep, cut through the ice cave and take apart the machine."
+    ],
+    [
+      "MSG_M5_O5_COMP",
+      3598,
+      "M5: Clone Operation Destroyed"
+    ],
+    [
+      "MSG_M5_O6_SUMMARY",
+      3599,
+      "M6: Go to VTOL Landing Area"
+    ],
+    [
+      "MSG_M5_O6_OBJ",
+      3600,
+      "You've destroyed all cloning operations. Proceed to the VTOL landing area for pick up."
+    ],
+    [
+      "MSG_M5_O6_COMP",
+      3601,
+      "M6: Mission Complete"
+    ],
+    [
+      "MSG_M6_O1_SUMMARY",
+      3840,
+      "M1: Go Underground"
+    ],
+    [
+      "MSG_M6_O1_OBJ",
+      3841,
+      "The network is building a city underground. Fight your way to the elevator that leads to the construction site."
+    ],
+    [
+      "MSG_M6_O1_COMP",
+      3842,
+      "M1: Elevator Going Down"
+    ],
+    [
+      "MSG_M6_O2_SUMMARY",
+      3843,
+      "M2: Fight the Power"
+    ],
+    [
+      "MSG_M6_O2_OBJ",
+      3844,
+      "Sensors show that the network's central core is powered by three remote power stations. You can reach them through transporters."
+    ],
+    [
+      "MSG_M6_O2_COMP",
+      3845,
+      "M2: Power Station Destroyed"
+    ],
+    [
+      "MSG_M6_O3_SUMMARY",
+      3846,
+      "M3: Another Station"
+    ],
+    [
+      "MSG_M6_O3_OBJ",
+      3847,
+      "Hover over the hot stuff, then track down the power plant and unplug it."
+    ],
+    [
+      "MSG_M6_O3_COMP",
+      3848,
+      "M3 Power Station Destroyed"
+    ],
+    [
+      "MSG_M6_O4_SUMMARY",
+      3849,
+      "M4: The Last Station"
+    ],
+    [
+      "MSG_M6_O4_OBJ",
+      3850,
+      "Access to the final power station is through an underwater passage. Switch to sub mode and dive."
+    ],
+    [
+      "MSG_M6_O4_COMP",
+      3851,
+      "M4: Power Station Destroyed"
+    ],
+    [
+      "MSG_M6_O5_SUMMARY",
+      3852,
+      "M5: Destroy the Machine"
+    ],
+    [
+      "MSG_M6_O5_OBJ",
+      3853,
+      "With all of the power stations offline, the central core of the network is exposed. Hit it with all of your power and crash the system."
+    ],
+    [
+      "MSG_M6_O5_COMP",
+      3854,
+      "M5: Victory!"
+    ],
+    [
+      "MSG_CAMPAIGN_DONE",
+      3855,
+      "Campaign completed.  No more objectives."
+    ],
+    [
+      "MSG_CHEAT_AMMO",
+      4096,
+      "Hemmit"
+    ],
+    [
+      "MSG_CHEAT_HEALTH",
+      4097,
+      "Medic"
+    ],
+    [
+      "MSG_CHEAT_INVINCIBLE",
+      4098,
+      "Cavalry"
+    ],
+    [
+      "MSG_CHEAT_TIMER",
+      4099,
+      "Timer"
+    ],
+    [
+      "MSG_CHEAT_FRAMERATE",
+      4100,
+      "zinfo"
+    ],
+    [
+      "MSG_CHEAT_GOD",
+      4101,
+      "god"
+    ],
+    [
+      "MSG_DLG_OPTIONSPANEL_MUST_RESTART",
+      8192,
+      "* Must restart campaign before change takes effect"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_RETURN",
+      8193,
+      "Variable"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_HIGH",
+      8194,
+      "HIGH"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_MED",
+      8195,
+      "MED"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_LOW",
+      8196,
+      "LOW"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_MAX",
+      8197,
+      "MAX*"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_8MB",
+      8198,
+      "8 MB*"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_6MB",
+      8199,
+      "6 MB*"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_4MB",
+      8200,
+      "4 MB*"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_2MB",
+      8201,
+      "2 MB*"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_HIGH_STAR",
+      8202,
+      "HIGH*"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_MED_STAR",
+      8203,
+      "MED*"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_LOW_STAR",
+      8204,
+      "LOW*"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_TO_ZERO",
+      8208,
+      "Throttle"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_NON_RETURN",
+      8209,
+      "Sustained"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_TO_ZERO2",
+      8210,
+      "Throttle"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_CURSOR",
+      8211,
+      "Cursor"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_STEERS_TANK",
+      8212,
+      "Steers Tank"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_CURSOR2",
+      8213,
+      "Cursor"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_TURNS_TURRET",
+      8214,
+      "Turns Turret"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_SCREEN",
+      8215,
+      "Screen"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_POSITION",
+      8216,
+      "Position"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_SENSITIVE",
+      8217,
+      "Sensitive"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_REQUIRES",
+      8218,
+      "Requires"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_CURSOR3",
+      8219,
+      "Cursor"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_PUSH",
+      8220,
+      "Push"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_FIRST",
+      8221,
+      "First"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_PERSON",
+      8222,
+      "Person"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_THIRD",
+      8223,
+      "Third"
+    ],
+    [
+      "MSG_DLG_CONTROLS_DIALOG_PERSON2",
+      8224,
+      "Person"
+    ],
+    [
+      "MSG_CAMPAIGN1_NAME",
+      8240,
+      "Island Storm"
+    ],
+    [
+      "MSG_CAMPAIGN2_NAME",
+      8241,
+      "Dust and Metal"
+    ],
+    [
+      "MSG_CAMPAIGN3_NAME",
+      8242,
+      "Thermal Meltdown"
+    ],
+    [
+      "MSG_CAMPAIGN4_NAME",
+      8243,
+      "Poison Valley"
+    ],
+    [
+      "MSG_CAMPAIGN5_NAME",
+      8244,
+      "Cold Kill Chaos"
+    ],
+    [
+      "MSG_CAMPAIGN6_NAME",
+      8245,
+      "Network Showdown"
+    ],
+    [
+      "MSG_CAMPAIGN7_NAME",
+      8246,
+      "RiverWorks"
+    ],
+    [
+      "MSG_CAMPAIGN8_NAME",
+      8247,
+      "Crater Chaos"
+    ],
+    [
+      "MSG_CAMPAIGN9_NAME",
+      8248,
+      "Beach Rally"
+    ],
+    [
+      "MSG_CAMPAIGN10_NAME",
+      8249,
+      "City of Cranium"
+    ],
+    [
+      "MSG_CAMPAIGN11_NAME",
+      8250,
+      "Frozen Tundra"
+    ],
+    [
+      "MSG_CAMPAIGN12_NAME",
+      8251,
+      "Wicked Waterways"
+    ],
+    [
+      "MSG_CAMPAIGN13_NAME",
+      8252,
+      "Transporter Trauma"
+    ],
+    [
+      "MSG_WOL_UPGRADE",
+      12289,
+      "Upgrade Required"
+    ],
+    [
+      "MSG_WOL_UPGRADE_ASK",
+      12290,
+      "An upgrade for Westwood Online is required for this game.%n%nDo you wish to download it now?"
+    ],
+    [
+      "MSG_WOL_ERROR",
+      12291,
+      "Westwood Online Error"
+    ],
+    [
+      "MSG_WOL_USER_QUIT",
+      12292,
+      "User <%1> quit."
+    ],
+    [
+      "MSG_WOL_NO_LOBBIES",
+      12293,
+      "There are currently no lobbies for this game."
+    ],
+    [
+      "MSG_WOL_ONE_LOBBY",
+      12294,
+      "There is one lobby for this game."
+    ],
+    [
+      "MSG_WOL_NUM_LOBBIES",
+      12295,
+      "There are %1!d! lobbies for this game."
+    ],
+    [
+      "MSG_WOL_LOGIN_USED",
+      12296,
+      "That login is already being used."
+    ],
+    [
+      "MSG_WOL_LOGIN_BAD",
+      12297,
+      "Login/Password incorrect."
+    ],
+    [
+      "MSG_WOL_TEMP_BANNED",
+      12298,
+      "You've been temporarily banned."
+    ],
+    [
+      "MSG_WOL_NET_TIMEOUT",
+      12299,
+      "Network timeout. Try again later."
+    ],
+    [
+      "MSG_WOL_NO_CONNECT",
+      12300,
+      "Could not connect."
+    ],
+    [
+      "MSG_WOL_CHANNEL_CREATE_ERROR",
+      12301,
+      "Error creating channel."
+    ],
+    [
+      "MSG_WOL_CHANNEL_CREATED",
+      12302,
+      "Created channel {%1}."
+    ],
+    [
+      "MSG_WOL_GAME_CREATED",
+      12303,
+      "Created game {%1}."
+    ],
+    [
+      "MSG_WOL_CHANNEL_FULL",
+      12304,
+      "Channel full."
+    ],
+    [
+      "MSG_WOL_JOIN_CHANNEL_ERROR",
+      12305,
+      "Error joining channel:"
+    ],
+    [
+      "MSG_WOL_STATUS_ERROR",
+      12306,
+      "Status Error."
+    ],
+    [
+      "MSG_WOL_CHANNEL_NOT_EXIST",
+      12307,
+      "Channel Does Not Exist."
+    ],
+    [
+      "MSG_WOL_PASSWORD_REQUIRED",
+      12308,
+      "Channel Requires a Password."
+    ],
+    [
+      "MSG_WOL_USER_JOINED_CHANNEL",
+      12309,
+      "User <%1> joined channel {%2}."
+    ],
+    [
+      "MSG_WOL_USER_LEFT_CHANNEL",
+      12310,
+      "User <%1> left channel {%2}."
+    ],
+    [
+      "MSG_WOL_I_AM_HOST",
+      12311,
+      " (I am Host)"
+    ],
+    [
+      "MSG_WOL_USER_IS_ME",
+      12312,
+      " *"
+    ],
+    [
+      "MSG_WOL_USER_IS_HOST",
+      12313,
+      " (Host)"
+    ],
+    [
+      "MSG_WOL_DISCONNECTING",
+      12314,
+      "Disconnecting from Westwood Online..."
+    ],
+    [
+      "MSG_WOL_PUBLIC_MESSAGE",
+      12315,
+      "[%1] : %2"
+    ],
+    [
+      "MSG_WOL_PRIVATE_MESSAGE",
+      12316,
+      "<%1> : %2"
+    ],
+    [
+      "MSG_WOL_PAGE",
+      12317,
+      "(Page from %1) * %2 *"
+    ],
+    [
+      "MSG_WOL_PAGE_SENT",
+      12318,
+      "Page sent."
+    ],
+    [
+      "MSG_WOL_PAGES_DISABLED",
+      12319,
+      "User has pages disabled."
+    ],
+    [
+      "MSG_WOL_USER_NOT_LOGGED_IN",
+      12320,
+      "User not logged in."
+    ],
+    [
+      "MSG_WOL_USER_CANNOT_BE_PAGED",
+      12321,
+      "User could not be paged."
+    ],
+    [
+      "MSG_WOL_USER_IN_CHANNEL",
+      12322,
+      "User is in channel {%1}."
+    ],
+    [
+      "MSG_WOL_USER_NOT_IN_CHANNELS",
+      12323,
+      "User not in in any channels."
+    ],
+    [
+      "MSG_WOL_USER_HAS_FIND_DISABLED",
+      12324,
+      "User has find disabled."
+    ],
+    [
+      "MSG_WOL_FIND_FAILED",
+      12325,
+      "Find failed."
+    ],
+    [
+      "MSG_WOL_SYSTEM_MESSAGE",
+      12326,
+      ">>> %1"
+    ],
+    [
+      "MSG_WOL_CHAT_CHANNEL_LIST",
+      12327,
+      "%1  (%2!d! current)"
+    ],
+    [
+      "MSG_WOL_CHANNEL_NAME_LATENCY",
+      12328,
+      "%1  %2!d!/%3!d!  Latency [%4]"
+    ],
+    [
+      "MSG_WOL_BANNED_UNTIL",
+      12330,
+      "You have been banned until %1."
+    ],
+    [
+      "MSG_WOL_USER_BANNED_FROM_CHANNEL",
+      12331,
+      "<%1> has been banned from the channel."
+    ],
+    [
+      "MSG_WOL_BAN_REMOVED",
+      12332,
+      "The channel ban on <%1> has been removed."
+    ],
+    [
+      "MSG_WOL_KICKED_OUT_OF_CHANNEL",
+      12333,
+      "You were kicked out of channel {%1} by <%2>."
+    ],
+    [
+      "MSG_WOL_USER_KICKED_OUT_OF_CHANNEL",
+      12334,
+      "User <%1> was kicked out of channel {%2} by <%3>."
+    ],
+    [
+      "MSG_WOL_DLL_INSTALL_ERROR",
+      12335,
+      "The Westwood Online Setup did not register properly.%nPlease reinstall RECOIL from the RECOIL CD."
+    ],
+    [
+      "MSG_WOL_INSTALL_ERROR",
+      12336,
+      "Install Error"
+    ],
+    [
+      "MSG_WOL_CONNECTION_TIMEOUT_MSG",
+      12337,
+      "Westwood Online connection timeout (Have you installed and registered Westwood Online from the RECOIL CD?).%nDo you want to continue to wait up to another 15 seconds?"
+    ],
+    [
+      "MSG_WOL_CONNECTION_ERROR",
+      12338,
+      "Connection Error"
+    ],
+    [
+      "MSG_WOL_CONNECTING",
+      12339,
+      "Connecting to Westwood Online..."
+    ],
+    [
+      "MSG_WOL_RECOIL",
+      12340,
+      "RECOIL on Westwood Online"
+    ],
+    [
+      "MSG_WOL_CONNECTION_ABORT",
+      12341,
+      "Connection failed.  Aborting."
+    ],
+    [
+      "MSG_WOL_HOST_HAS_LEFT",
+      12342,
+      "Your channel Host has abandoned you!  Leaving channel {%1}."
+    ],
+    [
+      "MSG_WOL_KILLS_NEEDED_TO_WIN",
+      12343,
+      "Kills Needed to Win"
+    ],
+    [
+      "MSG_WOL_MESSAGE_TO_USER",
+      12344,
+      "{ MESSAGE to %1 } %2"
+    ],
+    [
+      "MSG_WOL_PUBLIC_ACTION_TO_USER",
+      12345,
+      "{ %1 PUBLIC ACTION } %2"
+    ],
+    [
+      "MSG_WOL_ACTION_TO_USER",
+      12346,
+      "{ ACTION to %1 } %2"
+    ],
+    [
+      "MSG_WOL_UNSQUELCH_USER",
+      12347,
+      "User was squelched, unsquelching."
+    ],
+    [
+      "MSG_WOL_SQUELCH_USER",
+      12348,
+      "Squelching user."
+    ],
+    [
+      "MSG_WOL_PAGE_NAME_ERROR",
+      12349,
+      "Enter name of player to page."
+    ],
+    [
+      "MSG_WOL_CHANNEL_NAME_ERROR",
+      12350,
+      "Couldn't create the channel, some characters can't be used in channel names."
+    ],
+    [
+      "MSG_WOL_NEED_GAME_NAME",
+      12351,
+      "Enter the game name in the 'New Channel Name' box.%nThen click on the 'NEW' button."
+    ],
+    [
+      "MSG_WOL_LAPS_TO_WIN",
+      12352,
+      "Laps to Win"
+    ],
+    [
+      "MSG_WOL_KILLS_TO_WIN",
+      12353,
+      "Kills to Win"
+    ],
+    [
+      "MSG_WOL_JOIN_IN_PROGRESS",
+      12354,
+      "Previous channel request has not yet completed"
+    ],
+    [
+      "MSG_WOL_UPGRADE_PROGRESS",
+      12355,
+      "Downloading file %1!d! of %2!d!..."
+    ],
+    [
+      "MSG_WOL_NICKNAME_1",
+      12356,
+      "1st Login Name"
+    ],
+    [
+      "MSG_WOL_NICKNAME_2",
+      12357,
+      "2nd Login Name"
+    ],
+    [
+      "MSG_WOL_RESTART_REQUIRED",
+      12358,
+      "RECOIL will now apply the patch and restart."
+    ]
   ]
-]
+}
